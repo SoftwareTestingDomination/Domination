@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO remove this when we move to version 4 of Google Play Game Services -->
+    <integer name="google_play_services_version">3266000</integer>
+</resources>

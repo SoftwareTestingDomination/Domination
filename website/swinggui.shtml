@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>yura.net Domination (Risk Board Game) - SwingGUI</title>
+
+<!--#include file="top.txt" -->
+
+
+<h1>yura.net Domination - SWING GUI APPLET</h1>
+
+<center>
+
+<applet code="net.yura.domination.ui.swinggui.SwingGUIApplet" codebase="applet" ARCHIVE="Domination.jar" width=720 height=620>
+
+<PARAM NAME="lang" VALUE="<!--#echo var="QUERY_STRING" -->">
+
+<PARAM NAME="map" VALUE="ameroki.map,eurasien.map,geoscape.map,lotr.map,luca.map,risk.map,RiskEurope.map,roman_empire.map,sersom.map,teg.map,tube.map,uk.map,world.map">
+
+<PARAM NAME="cards" VALUE="ameroki.cards,eurasien.cards,lotr.cards,nomission.cards,risk.cards,RiskEurope.cards,roman_empire.cards">
+
+</applet>
+
+</center>
+
+<p>This is just a demo and does not include all the features of the game, and as its loading from the net, its a lot slower then the full game.</p>
+
+<p>Save game and load game will not work in the applet as they require access to the hard disk, network play will not work too.</p>
+
+<!--#include file="lang.txt" -->
+
+<a href="applet/src.zip">Download Source Code</a>
+
+<br clear="both"/>
+
+<g:comments
+    href="http://domination.sourceforge.net/swinggui.shtml"
+    first_party_property="BLOGGER"
+    view_type="FILTERED_POSTMOD">
+</g:comments>
+
+<!--#include file="nav.txt" -->
+

@@ -1,0 +1,160 @@
+<html>
+
+<head>
+<title>yura.net Domination (Risk Board Game) - Maps</title>
+
+<!--#include file="top.txt" -->
+
+<h1>Download Extra Maps:</h1>
+
+<br>
+
+<!-- hidden -->
+
+<!--
+<div class='thumbnail'><a href="maps/board.zip">	<img src="images/maps/copy/board.jpg" border="1" width="150" height="94"><br>	1. Board Map</a><br>					by Yura Mamyrin					</div>
+<div class='thumbnail'><a href="maps/risk2.zip">	<img src="images/maps/copy/risk2.jpg" border="1" width="150" height="94"><br>	2. Risk II Map</a><br>					by Yura Mamyrin					</div>
+<div class='thumbnail'><a href="maps/risk2210.zip">	<img src="images/maps/copy/risk2210.jpg" border="1" width="150" height="94"><br>3. Risk 2210 Map</a><br>					by Matthias Kuehl				</div>
+<div class='thumbnail'><a href="maps/aa.zip">		<img src="images/maps/copy/aa.jpg" border="1" width="150" height="94"><br>	4. Axis and Allies Map</a><br>				by Paul Habermann				</div>
+<div class='thumbnail'><a href="maps/godstorm.zip">	<img src="images/maps/copy/godstorm.jpg" border="1" width="150" height="94"><br>5. Risk Godstorm Map</a><br>				by Yura Mamyrin					</div>
+<div class='thumbnail'><a href="maps/napoleon.zip">	<img src="images/maps/copy/napoleon.jpg" border="1" width="150" height="94"><br>6. Risk Napoléon</a><br>					by Kaiba08					</div>
+-->
+
+<!-- come with the game -->
+
+<div class='thumbnail'>					<img src="images/maps/luca.jpg" border="1" width="150" height="94"><br>		7. World War Map<br>					by Luca Fumis		<br>(Comes with the game)</div>
+<div class='thumbnail'>					<img src="images/maps/risk.jpg" border="1" width="150" height="94"><br>		8. Risk Map<br>						by Yura Mamyrin		<br>(Comes with the game)</div>
+<div class='thumbnail'>					<img src="images/maps/roman_empire.jpg" border="1" width="150" height="94"><br>	9. Roman Empire Map<br>					by Adrien Schvalberg	<br>(Comes with the game)</div>
+<div class='thumbnail'>					<img src="images/maps/teg.jpg" border="1" width="150" height="94"><br>		10. TEG Map<br>						by Wolfgang Morawetz	<br>(Comes with the game)</div>
+<div class='thumbnail'>					<img src="images/maps/tube.jpg" border="1" width="150" height="94"><br>		11. Tube Map<br>						by Yura Mamyrin		<br>(Comes with the game)</div>
+<div class='thumbnail'>					<img src="images/maps/uk.jpg" border="1" width="150" height="94"><br>		12. UK Map<br>						by Yura Mamyrin		<br>(Comes with the game)</div>
+<div class='thumbnail'>					<img src="images/maps/world.jpg" border="1" width="150" height="94"><br>	13. World Map<br>					by Christian Domsch &amp; others<br>(Comes with the game)</div>
+<div class='thumbnail'>					<img src="images/maps/sersom.jpg" border="1" width="150" height="94"><br>	14. S.E.R.S.O.M.<br>					by Yura Mamyrin		<br>(Comes with the game)</div>
+<div class='thumbnail'>					<img src="images/maps/ameroki.jpg" border="1" width="150" height="94"><br>	15. Ameroki Map<br>					by Shane Williams	<br>(Comes with the game)</div>
+<div class='thumbnail'>					<img src="images/maps/eurasien.jpg" border="1" width="150" height="94"><br>	16. Eurasien Map<br>					by Alexis V. Papadopoulos<br>(Comes with the game)</div>
+<div class='thumbnail'>					<img src="images/maps/geoscape.jpg" border="1" width="150" height="94"><br>	17. Geoscape Map<br>					by David Lawrence	<br>(Comes with the game)</div>
+<div class='thumbnail'>					<img src="images/maps/lotr.jpg" border="1" width="150" height="94"><br>		18. Lord of the Rings Map<br>				by liz			<br>(Comes with the game)</div>
+<div class='thumbnail'>					<img src="images/maps/riskeurope.jpg" border="1" width="150" height="94"><br>	19. Risk Europe Map<br>					by Simon Witzel		<br>(Comes with the game)</div>
+
+<!-- planets -->
+
+<div class='thumbnail'><a href="maps/solar.zip">	<img src="images/maps/solar.jpg" border="1" width="150" height="94"><br>	20. Solar Map</a><br>					by Stephen Karasevich				</div>
+
+<!-- continents -->
+
+<div class='thumbnail'><a href="maps/bigeurope.zip">	<img src="images/maps/bigeurope.jpg" border="1" width="150" height="94"><br>	21. Big Europe Map</a><br>				by 						</div>
+<div class='thumbnail'><a href="maps/google.zip">	<img src="images/maps/google.jpg" border="1" width="150" height="94"><br>	22. Google Europa Map</a><br>				by Alexis Papadopoulos				</div>
+<div class='thumbnail'><a href="maps/europass.zip">	<img src="images/maps/europass.jpg" border="1" width="150" height="94"><br>	23. Europass Map</a><br>				by Sven Soehnel					</div>
+<div class='thumbnail'><a href="maps/europe.zip">	<img src="images/maps/europe.jpg" border="1" width="150" height="94"><br>	24. Europe Map</a><br>					by Jack Wain					</div>
+<div class='thumbnail'><a href="maps/artic.zip">	<img src="images/maps/artic.jpg" border="1" width="150" height="94"><br>	25. Artic Map</a><br>					by Paulo Magalhaes<br>(Risk 1.0.9.3+)		</div>
+<div class='thumbnail'><a href="maps/sudamerica.zip">	<img src="images/maps/sudamerica.jpg" border="1" width="150" height="94"><br>	26. Sudamerica Map</a><br>				by Gabriel García				</div>
+
+<!-- countries -->
+
+<div class='thumbnail'><a href="maps/MiddleEast-Qatar.zip"><img src="images/maps/MiddleEast-Qatar.jpg" border="1" width="150" height="94"><br>27. MiddleEast-Qatar Map</a><br>			by Zachary W					</div>
+<div class='thumbnail'><a href="maps/kosova.zip">	<img src="images/maps/kosova.jpg" border="1" width="150" height="94"><br>	28. Kosova Map</a><br>					by Fatos Berisha				</div>
+<div class='thumbnail'><a href="maps/Falkland-Islands.zip"><img src="images/maps/Falkland-Islands.jpg" border="1" width="150" height="94"><br>29. Falkland-Islands Map</a><br>			by Steven Campbell				</div>
+<!-- OLD VERSION, HAS BUGS
+<div class='thumbnail'><a href="maps/england.zip">	<img src="images/maps/england.jpg" border="1" width="150" height="94"><br>	30. England Map</a><br>					by Jack Wain					</div>
+-->
+<div class='thumbnail'><a href="maps/sw_baltic.zip">	<img src="images/maps/sw_baltic.jpg" border="1" width="150" height="94"><br>	31. South West Baltic Map</a><br>			by Carsten Tischbirek				</div>
+<div class='thumbnail'><a href="maps/spain.zip">	<img src="images/maps/spain.jpg" border="1" width="150" height="94"><br>	32. Spain Map</a><br>					by Jose-Philippe Culubret			</div>
+<div class='thumbnail'><a href="maps/swiss.zip">	<img src="images/maps/swiss.jpg" border="1" width="150" height="94"><br>	33. Switzerland Map</a><br>				by solli &amp; jeguz				</div>
+<div class='thumbnail'><a href="maps/france.zip">	<img src="images/maps/france.jpg" border="1" width="150" height="94"><br>	34. France Map</a><br>					by Thierry Baldo				</div>
+<div class='thumbnail'><a href="maps/austria.zip">	<img src="images/maps/austria.jpg" border="1" width="150" height="94"><br>	35. Austria Map</a><br>					by Carl Georg Heise				</div>
+<div class='thumbnail'><a href="maps/austria-hungary.zip"><img src="images/maps/austria-hungary.jpg" border="1" width="150" height="94"><br>36. Austria-Hungary Map</a><br>			by Tomáš Jelínek				</div>
+<div class='thumbnail'><a href="maps/eire.zip">		<img src="images/maps/eire.jpg" border="1" width="150" height="94"><br>		37. Eire Map</a><br>					by Ingrid ní Bhreasláin				</div>
+<div class='thumbnail'><a href="maps/haiti.zip">	<img src="images/maps/haiti.jpg" border="1" width="150" height="94"><br>	38. Haiti Map</a><br>					by Louis-Pierre Charbonneau			</div>
+<div class='thumbnail'><a href="maps/brasil.zip">	<img src="images/maps/brasil.jpg" border="1" width="150" height="94"><br>	39. Brasil Map</a><br>					by Joao Paulo Santos				</div>
+<div class='thumbnail'><a href="maps/benelux.zip">	<img src="images/maps/benelux.jpg" border="1" width="150" height="94"><br>	40. Benelux Map</a><br>					by Eknisd Lonra					</div>
+<div class='thumbnail'><a href="maps/canada.zip">	<img src="images/maps/canada.jpg" border="1" width="150" height="94"><br>	41. Canada Map</a><br>					by Paul D. Hobson				</div>
+<div class='thumbnail'><a href="maps/germany.zip">	<img src="images/maps/germany.jpg" border="1" width="150" height="94"><br>	42. Germany Map</a><br>					by Sven Lommatzsch				</div>
+<div class='thumbnail'><a href="maps/northeurope.zip">	<img src="images/maps/northeurope.jpg" border="1" width="150" height="94"><br>	43. Northern Europe Map</a><br>				by Sven Lommatzsch				</div>
+<div class='thumbnail'><a href="maps/germany1871.zip">	<img src="images/maps/germany1871.jpg" border="1" width="150" height="94"><br>	44. German Empire in 1871 Map</a><br>			by Sven Lommatzsch				</div>
+<div class='thumbnail'><a href="maps/Deutsches_Reich_1871.zip"><img src="images/maps/Deutsches_Reich_1871.jpg" border="1" width="150" height="94"><br>45. Deutsches Reich 1871 Map</a><br>	by Stefan Wunderlich				</div>
+<div class='thumbnail'><a href="maps/eesti.zip">	<img src="images/maps/eesti.jpg" border="1" width="150" height="94"><br>	46. Eesti Map</a><br>					by Indrek Nägelik				</div>
+<div class='thumbnail'><a href="maps/estonia.zip">	<img src="images/maps/estonia.jpg" border="1" width="150" height="94"><br>	47. Estonia Map</a><br>					by Näx Indrek					</div>
+<div class='thumbnail'><a href="maps/mexico.zip">	<img src="images/maps/mexico.jpg" border="1" width="150" height="94"><br>	48. Mexico Map</a><br>					by Paul D. Hobson				</div>
+<div class='thumbnail'><a href="maps/serbia.zip">	<img src="images/maps/serbia.jpg" border="1" width="150" height="94"><br>	49. Serbia Map</a><br>					by Aleksandar Stijacic				</div>
+<div class='thumbnail'><a href="maps/fletzmap.zip">	<img src="images/maps/fletzmap.jpg" border="1" width="150" height="94"><br>	50. Middle Europe Map</a><br>				by Markus Fletzer				</div>
+<div class='thumbnail'><a href="maps/greece.zip">	<img src="images/maps/greece.jpg" border="1" width="150" height="94"><br>	51. Greece Map</a><br>					by Alexis Papadopoulos				</div>
+<div class='thumbnail'><a href="maps/North_of_Italy.zip"><img src="images/maps/North_of_Italy.jpg" border="1" width="150" height="94"><br>52. North of Italy Map</a><br>			by Francesco Dal Bello				</div>
+
+<!-- places -->
+
+<div class='thumbnail'><a href="maps/bayern.zip">	<img src="images/maps/bayern.jpg" border="1" width="150" height="94"><br>	53. Bayern Map</a><br>					by Thomas Kagerer				</div>
+<div class='thumbnail'><a href="maps/berlin.zip">	<img src="images/maps/berlin.jpg" border="1" width="150" height="94"><br>	54. Berlin Map</a><br>					by Jason Komets					</div>
+<div class='thumbnail'><a href="maps/navarra.zip">	<img src="images/maps/navarra.jpg" border="1" width="150" height="94"><br>	55. Navarra Map</a><br>					by Rubén Lizarraga Sagüés			</div>
+<div class='thumbnail'><a href="maps/Illes_Balears.zip"><img src="images/maps/Illes_Balears.jpg" border="1" width="150" height="94"><br>56. Illes Balears Map</a><br>				by Antonio Ramis Villalobos			</div>
+<!--<div class='thumbnail'><a href="maps/calw.zip">	<img src="images/maps/calw.jpg" border="1" width="150" height="94"><br>			57. Großer Landkreis Calw Map</a><br>			by André Barreira Strätling			</div>-->
+<div class='thumbnail'><a href="maps/wuppertal.zip">	<img src="images/maps/wuppertal.jpg" border="1" width="150" height="94"><br>	58. Wuppertal Map</a><br>				by Matthias Scheiba				</div>
+<div class='thumbnail'><a href="maps/kerzell.zip">	<img src="images/maps/kerzell.jpg" border="1" width="150" height="94"><br>	59. Kerzell Map</a><br>					by Simon Witzel					</div>
+<div class='thumbnail'><a href="maps/ennepe-ruhr-kreis.zip"><img src="images/maps/ennepe-ruhr-kreis.jpg" border="1" width="150" height="94"><br>60. Ennepe-Ruhr-Kreis Map</a><br>		by Jörg Pälchen					</div>
+<div class='thumbnail'><a href="maps/cologne.zip">	<img src="images/maps/cologne.jpg" border="1" width="150" height="94"><br>	61. Cologne Map</a><br>					by Alexander Steinberg				</div>
+<div class='thumbnail'><a href="maps/saarland.zip">	<img src="images/maps/saarland.jpg" border="1" width="150" height="94"><br>	62. Saarland Map</a><br>				by Christian Leidnerser				</div>
+<div class='thumbnail'><a href="maps/andorra.zip">	<img src="images/maps/andorra.jpg" border="1" width="150" height="94"><br>	63. Andorra Map</a><br>					by Daniel Prada Alquézar			</div>
+<div class='thumbnail'><a href="maps/catalunya.zip">	<img src="images/maps/catalunya.jpg" border="1" width="150" height="94"><br>	64. Catalunya Map</a><br>				by Jordi Vila					</div>
+<div class='thumbnail'><a href="maps/astadt.zip">	<img src="images/maps/astadt.jpg" border="1" width="150" height="94"><br>	65. Astadt Map</a><br>					by Florian Gaigl				</div>
+<div class='thumbnail'><a href="maps/dortmund.zip">	<img src="images/maps/dortmund.jpg" border="1" width="150" height="94"><br>	66. Dortmund Map</a><br>				by Volker Kasigkeit				</div>
+<div class='thumbnail'><a href="maps/rio_de_janeiro.zip"><img src="images/maps/rio_de_janeiro.jpg" border="1" width="150" height="94"><br>67. Rio de Janeiro Map</a><br>			by Paulo Magalhaes				</div>
+<div class='thumbnail'><a href="maps/caribbean.zip">	<img src="images/maps/caribbean.jpg" border="1" width="150" height="94"><br>	68. Pirates of the Caribbean Map</a><br>		by Daniel Le Preux<br>(Risk 1.0.9.3+)		</div>
+<div class='thumbnail'><a href="maps/Nuremberg_Public_Transit.zip"><img src="images/maps/Nuremberg_Public_Transit.jpg" border="1" width="150" height="94"><br>69. Nuremberg Public Transit Map</a><br>by oabnbg					</div>
+
+<!-- other games -->
+
+<div class='thumbnail'><a href="maps/discworld.zip">	<img src="images/maps/discworld.jpg" border="1" width="150" height="94"><br>	70. Disc World Map</a><br>				by Rainer Heun					</div>
+<div class='thumbnail'><a href="maps/aztec.zip">	<img src="images/maps/aztec.jpg" border="1" width="150" height="94"><br>	71. DE Aztec Map</a><br>				by Florian Gaigl				</div>
+<div class='thumbnail'><a href="maps/GTA_SAN_AN.zip">	<img src="images/maps/GTA_SAN_AN.jpg" border="1" width="150" height="94"><br>	72. GTA SAN AN Map</a><br>				by 						</div>
+<div class='thumbnail'><a href="maps/middleearth.zip">	<img src="images/maps/middleearth.jpg" border="1" width="150" height="94"><br>	73. Middle Earth Map</a><br>				by Steffen Hess					</div>
+<div class='thumbnail'><a href="maps/LOTR2.zip">	<img src="images/maps/LOTR2.jpg" border="1" width="150" height="94"><br>	74. LOTR2 Map</a><br>					by Kwinten De Baets				</div>
+<div class='thumbnail'><a href="maps/wow.zip">		<img src="images/maps/wow.jpg" border="1" width="150" height="94"><br>		75. World of WarCraft Map</a><br>			by Thomas					</div>
+<div class='thumbnail'><a href="maps/randland.zip">	<img src="images/maps/randland.jpg" border="1" width="150" height="94"><br>	76. Randland Map</a><br>				by Alex Krogh-Grabbe				</div>
+<div class='thumbnail'><a href="maps/Riskopoly.zip">	<img src="images/maps/Riskopoly.jpg" border="1" width="150" height="94"><br>	77. Riskopoly Map</a><br>				by Robert Gandert<br>(Risk 1.0.9.3+)		</div>
+<div class='thumbnail'><a href="maps/SuperRiskopoly.zip"><img src="images/maps/SuperRiskopoly.jpg" border="1" width="150" height="94"><br>78. Super Riskopoly Map</a><br>			by Robert Gandert				</div>
+<div class='thumbnail'><a href="maps/trivia.zip">	<img src="images/maps/trivia.jpg" border="1" width="150" height="94"><br>	79. Trivia Map</a><br>					by Micah Barnes					</div>
+<div class='thumbnail'><a href="maps/chutes.zip">	<img src="images/maps/chutes.jpg" border="1" width="150" height="94"><br>	80. Chutes Map</a><br>					by Micah Barnes<br>(Risk 1.0.9.3+)		</div>
+<div class='thumbnail'><a href="maps/sudoku.zip">	<img src="images/maps/sudoku.jpg" border="1" width="150" height="94"><br>	81. Sudoku Map</a><br>					by Laurent Terrier				</div>
+<div class='thumbnail'><a href="maps/conquest.zip">	<img src="images/maps/conquest.jpg" border="1" width="150" height="94"><br>	82. Conquest Map</a><br>				by Chris Thomas					</div>
+<div class='thumbnail'><a href="maps/chrono_trigger.zip"><img src="images/maps/chrono_trigger.jpg" border="1" width="150" height="94"><br>83. Chrono Trigger 1000 A.D.</a><br>			by Philip Rushik				</div>
+<div class='thumbnail'><a href="maps/startrek.zip">	<img src="images/maps/startrek.jpg" border="1" width="150" height="94"><br>	84. Startrek Enterprise Ship</a><br>			by Sean Murphy<br>(Risk 1.0.9.3+)		</div>
+
+<!-- USA -->
+
+<div class='thumbnail'><a href="maps/usa8.zip">		<img src="images/maps/usa8.jpg" border="1" width="150" height="94"><br>		85. United States 8 Regions Map</a><br>			by Paul D. Hobson				</div>
+<div class='thumbnail'><a href="maps/civilwar.zip">	<img src="images/maps/civilwar.jpg" border="1" width="150" height="94"><br>	86. Civil War Map</a><br>				by Paul D. Hobson				</div>
+<div class='thumbnail'><a href="maps/usa.zip">		<img src="images/maps/usa.jpg" border="1" width="150" height="94"><br>		87. United States Map</a><br>				by Kevin Mitchell				</div>
+<div class='thumbnail'><a href="maps/hawaii.zip">	<img src="images/maps/hawaii.jpg" border="1" width="150" height="94"><br>	88. Hawaii Map</a><br>					by Christoph Niewerth				</div>
+<div class='thumbnail'><a href="maps/ohio.zip">		<img src="images/maps/ohio.jpg" border="1" width="150" height="94"><br>		89. Ohio Map</a><br>					by Paul D. Hobson				</div>
+<div class='thumbnail'><a href="maps/nyc.zip">		<img src="images/maps/nyc.jpg" border="1" width="150" height="94"><br>		90. New York City Map</a><br>				by Chad McKittrick				</div>
+
+<!-- mad shit -->
+
+<div class='thumbnail'><a href="maps/zertina.zip">	<img src="images/maps/zertina.jpg" border="1" width="150" height="94"><br>	91. Zertina Map</a><br>					by Diego González de la Torre			</div>
+<div class='thumbnail'><a href="maps/fortress.zip">	<img src="images/maps/fortress.jpg" border="1" width="150" height="94"><br>	92. Fortress Map</a><br>				by Chris Goehler				</div>
+<div class='thumbnail'><a href="maps/estlandr.zip">	<img src="images/maps/estlandr.jpg" border="1" width="150" height="94"><br>	93. Estlandr Map</a><br>				by Axel Esaiasson				</div>
+<div class='thumbnail'><a href="maps/periodictable.zip"><img src="images/maps/periodictable.jpg" border="1" width="150" height="94"><br>94. Periodic Table Map</a><br>				by Douglas Wolf					</div>
+<div class='thumbnail'><a href="maps/sylsia.zip">	<img src="images/maps/sylsia.jpg" border="1" width="150" height="94"><br>	95. Sylsia Map</a><br>					by Elexis					</div>
+<div class='thumbnail'><a href="maps/troisdorf.zip">	<img src="images/maps/troisdorf.jpg" border="1" width="150" height="94"><br>	96. Troisdorf Map</a><br>				by Michèle Meqdadi				</div>
+<div class='thumbnail'><a href="maps/wolken.zip">	<img src="images/maps/wolken.jpg" border="1" width="150" height="94"><br>	97. Wolken Map</a><br>					by Michèle Meqdadi				</div>
+<div class='thumbnail'><a href="maps/castle.zip">	<img src="images/maps/castle.jpg" border="1" width="150" height="94"><br>	98. Crowther's Castle Map</a><br>			by Colton Crowther				</div>
+<div class='thumbnail'><a href="maps/naerr.zip">	<img src="images/maps/naerr.jpg" border="1" width="150" height="94"><br>	99. Naerr Map</a><br>					by Kyle Huckins					</div>
+<div class='thumbnail'><a href="maps/cow.zip">		<img src="images/maps/cow.jpg" border="1" width="150" height="94"><br>		100. Cow Map</a><br>					by Paul Habermann				</div>
+<div class='thumbnail'><a href="maps/westfalenhalle.zip"><img src="images/maps/westfalenhalle.jpg" border="1" width="150" height="94"><br>101. Westfalenhalle Map</a><br>			by Volker Kasigkeit				</div>
+<div class='thumbnail'><a href="maps/union.zip">	<img src="images/maps/union.jpg" border="1" width="150" height="94"><br>	102. University of Leicester Students Union Map</a><br>	by Mich Scott					</div>
+<div class='thumbnail'><a href="maps/rub.zip">		<img src="images/maps/rub.jpg" border="1" width="150" height="94"><br>		103. Ruhr Universität Bochum Map</a><br>			by Constantin Pelikan				</div>
+<div class='thumbnail'><a href="maps/gymnasium.zip">	<img src="images/maps/gymnasium.jpg" border="1" width="150" height="94"><br>	104. Gymnasium-Nottuln Map</a><br>			by Thomas Jay					</div>
+<div class='thumbnail'><a href="maps/simpsons_world.zip"><img src="images/maps/simpsons_world.jpg" border="1" width="150" height="94"><br>105. Simpsons World Map</a><br>			by Gabriel García				</div>
+<div class='thumbnail'><a href="maps/simpsons.zip">	<img src="images/maps/simpsons.jpg" border="1" width="150" height="94"><br>	106. Simpsons House</a><br>				by Laurent Terrier				</div>
+<div class='thumbnail'><a href="maps/germany2.zip">	<img src="images/maps/germany2.jpg" border="1" width="150" height="94"><br>	107. Germany 2 Map</a><br>				by Florian Boy					</div>
+
+<br clear="both"/>
+
+<g:comments
+    href="http://domination.sourceforge.net/getmaps.shtml"
+    first_party_property="BLOGGER"
+    view_type="FILTERED_POSTMOD">
+</g:comments>
+
+<!--#include file="nav.txt" -->
+
+

@@ -1,0 +1,25 @@
+<p>Change languages:
+<a href="?en"><img border="0" src="images/flags/eng.gif" width="24" height="19" alt="English"></a>
+<a href="?de"><img border="0" src="images/flags/deu.gif" width="24" height="19" alt="German"></a>
+<a href="?fr"><img border="0" src="images/flags/fra.gif" width="24" height="19" alt="French"></a>
+<a href="?es"><img border="0" src="images/flags/spa.gif" width="24" height="19" alt="Spanish"></a>
+<a href="?ru"><img border="0" src="images/flags/rus.gif" width="24" height="19" alt="Russian"></a>
+<a href="?nl"><img border="0" src="images/flags/ned.gif" width="24" height="19" alt="Dutch"></a>
+<a href="?it"><img border="0" src="images/flags/ita.gif" width="24" height="19" alt="Italian"></a>
+<a href="?zh"><img border="0" src="images/flags/chn.gif" width="24" height="19" alt="Chinese"></a>
+<a href="?ca"><img border="0" src="images/flags/cat.gif" width="24" height="19" alt="Catalan"></a>
+<a href="?fi"><img border="0" src="images/flags/fin.gif" width="24" height="19" alt="Finnish"></a>
+<a href="?tr"><img border="0" src="images/flags/tur.gif" width="24" height="19" alt="Turkish"></a>
+<a href="?sr"><img border="0" src="images/flags/scg.gif" width="24" height="19" alt="Serbian"></a>
+<a href="?pt"><img border="0" src="images/flags/por.gif" width="24" height="19" alt="Portuguese"></a>
+<!-- also have pt_PT -->
+<a href="?sv"><img border="0" src="images/flags/swe.gif" width="24" height="19" alt="Swedish"></a>
+<a href="?gl"><img border="0" src="images/flags/glg.gif" width="24" height="19" alt="Galician"></a>
+<a href="?pl"><img border="0" src="images/flags/pol.gif" width="24" height="19" alt="Polish"></a>
+<a href="?cs"><img border="0" src="images/flags/cze.gif" width="24" height="19" alt="Czech"></a>
+<a href="?uk"><img border="0" src="images/flags/ukr.gif" width="24" height="19" alt="Ukrainian"></a>
+<a href="?el"><img border="0" src="images/flags/ell.gif" width="24" height="19" alt="Greek"></a>
+<a href="?da"><img border="0" src="images/flags/dan.gif" width="24" height="19" alt="Danish"></a>
+<a href="?lv"><img border="0" src="images/flags/lva.gif" width="24" height="19" alt="Latvian"></a>
+<a href="?sk"><img border="0" src="images/flags/svk.gif" width="24" height="19" alt="Slovak"></a>
+</p>

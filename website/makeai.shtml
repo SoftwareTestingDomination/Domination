@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>yura.net Domination (Risk Board Game) - AI</title>
+
+<!--#include file="top.txt" -->
+
+<!--#include file="applet/help/ai.htm" -->
+
+<g:comments
+    href="http://domination.sourceforge.net/makeai.shtml"
+    first_party_property="BLOGGER"
+    view_type="FILTERED_POSTMOD">
+</g:comments>
+
+<!--#include file="nav.txt" -->
+

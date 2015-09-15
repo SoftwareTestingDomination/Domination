@@ -1,0 +1,358 @@
+<html xmlns:fb="http://ogp.me/ns/fb#">
+
+
+
+
+
+    <script src="https://wallet.google.com/inapp/lib/buy.js"></script>
+    <script type="text/javascript">
+
+      // Success handler
+      var successHandler = function(status){
+        if (window.console != undefined) {
+          console.log("Purchase completed successfully: ", status);
+          //window.location.reload();
+        }
+      }
+
+      // Failure handler
+      var failureHandler = function(status){
+        if (window.console != undefined) {
+          console.log("Purchase failed ", status);
+        }
+      }
+
+      // 1,999999999999
+
+      function purchase(item) {
+        var generated_jwt;
+        if (item == "Item1") {
+          generated_jwt = "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwNjc2NzIwMjYzMDc0NDYxODcyNSIsImF1ZCI6Ikdvb2dsZSIsInR5cCI6Imdvb2dsZS9wYXltZW50cy9pbmFwcC9pdGVtL3YxIiwiaWF0IjoxLCJleHAiOjk5OTk5OTk5OTk5OSwicmVxdWVzdCI6eyJjdXJyZW5jeUNvZGUiOiJHQlAiLCJwcmljZSI6IjEwLjAwIiwibmFtZSI6IkRvbWluYXRpb24gZG9uYXRpb24iLCJkZXNjcmlwdGlvbiI6Ik11bHRpcGxheWVyIENoYXQifX0.uWOJWplcmlN3WM8BaMQzTXTDndCw2bwUY1r0qpJ1Gw4";
+        } else if (item == "Item2") {
+          generated_jwt = "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwNjc2NzIwMjYzMDc0NDYxODcyNSIsImF1ZCI6Ikdvb2dsZSIsInR5cCI6Imdvb2dsZS9wYXltZW50cy9pbmFwcC9pdGVtL3YxIiwiaWF0IjoxLCJleHAiOjk5OTk5OTk5OTk5OSwicmVxdWVzdCI6eyJjdXJyZW5jeUNvZGUiOiJHQlAiLCJwcmljZSI6IjEwLjAwIiwibmFtZSI6IkRvbWluYXRpb24gZG9uYXRpb24iLCJkZXNjcmlwdGlvbiI6IkFuZHJvaWQgUGxheWVyIEN1c3RvbWl6YXRpb24ifX0.ZRX-gkkAIlmbhvru-yL4LoNpXclpc5qoK-2PNHOIwsE";
+        } else if (item == "Item3") {
+          generated_jwt = "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwNjc2NzIwMjYzMDc0NDYxODcyNSIsImF1ZCI6Ikdvb2dsZSIsInR5cCI6Imdvb2dsZS9wYXltZW50cy9pbmFwcC9pdGVtL3YxIiwiaWF0IjoxLCJleHAiOjk5OTk5OTk5OTk5OSwicmVxdWVzdCI6eyJjdXJyZW5jeUNvZGUiOiJHQlAiLCJwcmljZSI6IjEwLjAwIiwibmFtZSI6IkRvbWluYXRpb24gZG9uYXRpb24iLCJkZXNjcmlwdGlvbiI6Ik1hcFN0b3JlIFdlYiBJbnRlcmZhY2UifX0.PIj-LaRe8Mua1VL-fSKiIYhDjLWfPhdLazmehMGHCuc";
+        } else {
+          return;
+        }
+
+        google.payments.inapp.buy({
+          'jwt'     : generated_jwt,
+          'success' : successHandler,
+          'failure' : failureHandler
+        });
+      }
+    </script>
+
+
+
+
+<head>
+<title>yura.net Domination (Risk Board Game) - Donations</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" ></script>
+<script>
+    $(document).ready(function(){
+        $("#global_price").change(function(e){
+            var price = e.currentTarget.value;
+            $(".price").val(price);
+        });
+        $("#global_currency").change(function(e){
+            var price = e.currentTarget.value;
+            $(".currency").val(price);
+        });
+    });
+</script>
+<style>
+
+    div:target {
+	color: white;
+	background: #f60;
+    }
+    .feature {
+        text-align: center;
+        float: left;
+        width: 170px;
+        text-align: center;
+        border: 1px solid red;
+        margin: 5px;
+        padding: 5px;
+    }
+    h3 {
+        height: 50px;
+    }
+    .money {
+        float: right;
+    }
+    .buy-button {
+    	margin: 0px auto 15px;
+        display: block;
+	clear: right;
+    }
+</style>
+
+
+
+
+<!--#include file="top.txt" -->
+
+<!--
+<div class="money">
+    <script src="//www.gmodules.com/ig/ifr?url=http://money.technetium.be/google_interactive.xml%3FTC_LANG_language%3Den&amp;up_flag=1&amp;up_ATS=0&amp;up_AUD=0&amp;up_BEF=1&amp;up_BGN=0&amp;up_BRL=0&amp;up_CAD=0&amp;up_CHF=1&amp;up_CNY=0&amp;up_CYP=0&amp;up_CZK=0&amp;up_DEM=1&amp;up_DKK=1&amp;up_EEK=0&amp;up_ESP=0&amp;up_EUR=1&amp;up_FIM=0&amp;up_FRF=0&amp;up_GBP=1&amp;up_GRD=0&amp;up_HKD=0&amp;up_HRK=0&amp;up_HUF=0&amp;up_IDR=0&amp;up_IEP=0&amp;up_ILS=0&amp;up_INR=0&amp;up_ISK=0&amp;up_ITL=0&amp;up_JPY=1&amp;up_KRW=0&amp;up_LTL=0&amp;up_LUX=0&amp;up_LVL=0&amp;up_MTL=0&amp;up_MXN=0&amp;up_MYR=0&amp;up_NLG=1&amp;up_NOK=0&amp;up_NZD=0&amp;up_PHP=0&amp;up_PLN=0&amp;up_PTE=0&amp;up_RON=0&amp;up_RUB=0&amp;up_SEK=0&amp;up_SGD=0&amp;up_SIT=0&amp;up_SKK=0&amp;up_THB=0&amp;up_TRY=0&amp;up_USD=1&amp;up_ZAR=0&amp;synd=open&amp;w=200&amp;h=260&amp;title=Interactive+exchange+rates&amp;lang=en&amp;country=ALL&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
+</div>
+-->
+
+<h1>Domination Donations</h1>
+
+<h2>Donate to a feature</h2>
+
+<p>Sponsors a feature or bugfix for Domination on <a href="http://www.freedomsponsors.org/core/issue/?s=&project_id=170&project_name=Domination">FreedomSponsors</a>.</p>
+
+<p>If you like this app and would want me to spend more time on it, please donate, anything would be appreciated!</p>
+
+<script type="text/javascript">
+function validateAmount(amount){
+    if(amount.value.match( /^[0-9]+(\.([0-9]+))?$/)){
+        return true;
+    }else{
+        alert('You must enter a valid donation.');
+        amount.focus();
+        return false;
+    }
+}
+</script>
+
+<!--
+<h4>Step 1</h4>
+<div id="global">
+    Select amount to donate: 
+    <select id="global_currency" disabled>
+        <option value="GBP">GBP</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+    </select>
+    <input id="global_price" onfocus="this.style.color='black'; this.value='';" size="6" type="text" value="15.00"/>
+</div>
+<h4>Step 2</h4>
+<p>click the "Support" button for the feature you want added next to Domination:</p>
+-->
+
+<div id="multiplayer" class="feature">
+    <h3>Multiplayer Chat</h3>
+<!--
+<button class="buy-button" type="button" onClick="purchase('Item1');">Donate £10</button>
+-->
+    <!--
+    <form action="https://checkout.google.com/api/checkout/v2/checkoutForm/Merchant/115763805564313" method="post" name="BB_BuyButtonForm" onSubmit="return validateAmount(this.item_price_1)" target="_top">
+        <input name="item_name_1" type="hidden" value="Domination"/>
+        <input name="item_description_1" type="hidden" value="multiplayer"/>
+        <input name="item_quantity_1" type="hidden" value="1"/>
+        <input name="item_is_modifiable_1" type="hidden" value="true"/>
+        <input name="item_min_price_1" type="hidden" value="0.01"/>
+        <input name="item_max_price_1" type="hidden" value="25000.0"/>
+        <input name="_charset_" type="hidden" value="utf-8"/>
+        <input class="currency" type="hidden" name="item_currency_1" value="GBP"/>
+        <input class="price" type="hidden" name="item_price_1" value="15.00"/>
+        <input alt="Donate" src="https://checkout.google.com/buttons/support.gif?merchant_id=115763805564313&amp;w=130&amp;h=50&amp;style=trans&amp;variant=text" type="image"/>
+    </form>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="item_name" value="Domination">
+        <input type="hidden" name="item_number" value="multiplayer">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="business" value="yura@yura.net">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+        <input class="currency" type="hidden" name="currency_code" value="GBP">
+        <input class="price" type="hidden" name="amount" value="15.00">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    -->
+
+    <!--
+    <form action="https://bit-pay.com/checkout" method="post">
+    <input type="hidden" name="action" value="checkout"/>
+    <input type="hidden" name="posData" value=""/>
+    $ <input type="number" name="price" size=6 value="1" /><br>
+    <input type="hidden" name="data" value="jWlHLoj3YJqVEUvZNIg7ptf3W9uQ7jrn7hSrNNkt0JMJuJ5vt69dcPbU5o8HB6RpsR5h6mH8tWJV+xs8AdKLylByajzNYVhWHSNt6q4dwPMof2QGeFoR1NJbTOlbEMMF8zp6ws1YCUGlAA0iqllps1vSSR2ztw8BgsAg6fvfmtctIMm9GSwwbicp3fyjDm1CCHgSiizeo6r4S3HzE6h/Qak+4Ba4zL54ePL6I7SOH/8ZABNY7tU+UFEDT63K2v2R"/>
+    <input type="image" src="https://bit-pay.com/img/donate-sm.png" border="0" name="submit" alt="Bit-pay, the easy way to pay with bitcoins.">
+    </form>
+    -->
+
+    <a class="FlattrButton" style="display:none;" href="http://domination.sourceforge.net/donate.shtml#multiplayer"></a>
+    <noscript><a href="http://flattr.com/thing/863127/Domination-Game-Multiplayer" target="_blank">
+    <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+    <g:plusone size="tall" href="http://domination.sf.net/donate.shtml?multiplayer"></g:plusone>
+    <fb:like href="http://domination.sf.net/donate.shtml?multiplayer" send="false" layout="box_count" width="50" show_faces="true"></fb:like>
+</div>
+
+
+<!--
+<div id="android-player-customization" class="feature">
+    <h3><a href="#android-player-customization">Android Player Customization<a></h3>
+    <p><a href="http://www.freedomsponsors.org/core/issue/249/android-player-customization?show_sponsor=true">FreedomSponsors</a></p>
+
+<button class="buy-button" type="button" onClick="purchase('Item2');">Donate £10</button>
+    <!- -
+    <form action="https://checkout.google.com/api/checkout/v2/checkoutForm/Merchant/115763805564313" method="post" name="BB_BuyButtonForm" onSubmit="return validateAmount(this.item_price_1)" target="_top">
+        <input name="item_name_1" type="hidden" value="Domination"/>
+        <input name="item_description_1" type="hidden" value="android-player-customization"/>
+        <input name="item_quantity_1" type="hidden" value="1"/>
+        <input name="item_is_modifiable_1" type="hidden" value="true"/>
+        <input name="item_min_price_1" type="hidden" value="0.01"/>
+        <input name="item_max_price_1" type="hidden" value="25000.0"/>
+        <input name="_charset_" type="hidden" value="utf-8"/>
+        <input class="currency" type="hidden" name="item_currency_1" value="GBP"/>
+        <input class="price" type="hidden" name="item_price_1" value="15.00"/>
+        <input alt="Donate" src="https://checkout.google.com/buttons/support.gif?merchant_id=115763805564313&amp;w=130&amp;h=50&amp;style=trans&amp;variant=text" type="image"/>
+    </form>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="item_name" value="Domination">
+        <input type="hidden" name="item_number" value="android-player-customization">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="business" value="yura@yura.net">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+        <input class="currency" type="hidden" name="currency_code" value="GBP">
+        <input class="price" type="hidden" name="amount" value="15.00">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    - ->
+    <a class="FlattrButton" style="display:none;" href="http://domination.sf.net/donate.shtml#android-player-customization"></a>
+    <noscript><a href="http://flattr.com/thing/863157/Domination-Game-Android-Player-Customization" target="_blank">
+    <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+    <g:plusone size="tall" href="http://domination.sf.net/donate.shtml?android-player-customization"></g:plusone>
+    <fb:like href="http://domination.sf.net/donate.shtml?android-player-customization" send="false" layout="box_count" width="50" show_faces="true"></fb:like>
+</div>
+-->
+
+
+<div id="mapstore-web-interface" class="feature">
+    <h3>MapStore Web Interface</h3>
+<!--
+<button class="buy-button" type="button" onClick="purchase('Item3');">Donate £10</button>
+-->
+    <!--
+    <form action="https://checkout.google.com/api/checkout/v2/checkoutForm/Merchant/115763805564313" method="post" name="BB_BuyButtonForm" onSubmit="return validateAmount(this.item_price_1)" target="_top">
+        <input name="item_name_1" type="hidden" value="Domination"/>
+        <input name="item_description_1" type="hidden" value="mapstore-web-interface"/>
+        <input name="item_quantity_1" type="hidden" value="1"/>
+        <input name="item_is_modifiable_1" type="hidden" value="true"/>
+        <input name="item_min_price_1" type="hidden" value="0.01"/>
+        <input name="item_max_price_1" type="hidden" value="25000.0"/>
+        <input name="_charset_" type="hidden" value="utf-8"/>
+        <input class="currency" type="hidden" name="item_currency_1" value="GBP"/>
+        <input class="price" type="hidden" name="item_price_1" value="15.00"/>
+        <input alt="Donate" src="https://checkout.google.com/buttons/support.gif?merchant_id=115763805564313&amp;w=130&amp;h=50&amp;style=trans&amp;variant=text" type="image"/>
+    </form>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="item_name" value="Domination">
+        <input type="hidden" name="item_number" value="mapstore-web-interface">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="business" value="yura@yura.net">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+        <input class="currency" type="hidden" name="currency_code" value="GBP">
+        <input class="price" type="hidden" name="amount" value="15.00">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    -->
+    <a class="FlattrButton" style="display:none;" href="http://domination.sf.net/donate.shtml#mapstore-web-interface"></a>
+    <noscript><a href="http://flattr.com/thing/863160/Domination-Game-Mapstore-Web-Interface" target="_blank">
+    <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+    <g:plusone size="tall" href="http://domination.sf.net/donate.shtml?mapstore-web-interface"></g:plusone>
+    <fb:like href="http://domination.sf.net/donate.shtml?mapstore-web-interface" send="false" layout="box_count" width="50" show_faces="true"></fb:like>
+</div>
+
+
+
+<!--
+<div id="android-dice-select" class="feature">
+    <h3>Android Number of Dice Select</h3>
+    <form action="https://checkout.google.com/api/checkout/v2/checkoutForm/Merchant/115763805564313" method="post" name="BB_BuyButtonForm" onSubmit="return validateAmount(this.item_price_1)" target="_top">
+        <input name="item_name_1" type="hidden" value="Domination"/>
+        <input name="item_description_1" type="hidden" value="android-dice-select"/>
+        <input name="item_quantity_1" type="hidden" value="1"/>
+        <input name="item_is_modifiable_1" type="hidden" value="true"/>
+        <input name="item_min_price_1" type="hidden" value="0.01"/>
+        <input name="item_max_price_1" type="hidden" value="25000.0"/>
+        <input name="_charset_" type="hidden" value="utf-8"/>
+        <input class="currency" type="hidden" name="item_currency_1" value="GBP"/>
+        <input class="price" type="hidden" name="item_price_1" value="15.00"/>
+        <input alt="Donate" src="https://checkout.google.com/buttons/support.gif?merchant_id=115763805564313&amp;w=130&amp;h=50&amp;style=trans&amp;variant=text" type="image"/>
+    </form>
+    <!- -
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="item_name" value="Domination">
+        <input type="hidden" name="item_number" value="android-3D-globe">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="business" value="yura@yura.net">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+        <input class="currency" type="hidden" name="currency_code" value="GBP">
+        <input class="price" type="hidden" name="amount" value="15.00">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    - ->
+    <a class="FlattrButton" style="display:none;" href="http://domination.sf.net/donate.shtml#android-dice-select"></a>
+    <noscript><a href="http://flattr.com/thing/863161/Domination-Game-Android-Dice-Select" target="_blank">
+    <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+    <g:plusone size="tall" href="http://domination.sf.net/donate.shtml#android-dice-select"></g:plusone>
+    <fb:like href="http://domination.sf.net/donate.shtml?android-dice-select" send="false" layout="box_count" width="50" show_faces="true"></fb:like>
+</div>
+-->
+
+
+<!--
+<div id="android-3D-globe" class="feature">
+    <h3>Android 3D Globe</h3>
+    <form action="https://checkout.google.com/api/checkout/v2/checkoutForm/Merchant/115763805564313" method="post" name="BB_BuyButtonForm" onSubmit="return validateAmount(this.item_price_1)" target="_top">
+        <input name="item_name_1" type="hidden" value="Domination"/>
+        <input name="item_description_1" type="hidden" value="android-3D-globe"/>
+        <input name="item_quantity_1" type="hidden" value="1"/>
+        <input name="item_is_modifiable_1" type="hidden" value="true"/>
+        <input name="item_min_price_1" type="hidden" value="0.01"/>
+        <input name="item_max_price_1" type="hidden" value="25000.0"/>
+        <input name="_charset_" type="hidden" value="utf-8"/>
+        <input class="currency" type="hidden" name="item_currency_1" value="GBP"/>
+        <input class="price" type="hidden" name="item_price_1" value="15.00"/>
+        <input alt="Donate" src="https://checkout.google.com/buttons/support.gif?merchant_id=115763805564313&amp;w=130&amp;h=50&amp;style=trans&amp;variant=text" type="image"/>
+    </form>
+    <!- -
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="item_name" value="Domination">
+        <input type="hidden" name="item_number" value="android-3D-globe">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="business" value="yura@yura.net">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+        <input class="currency" type="hidden" name="currency_code" value="GBP">
+        <input class="price" type="hidden" name="amount" value="15.00">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    - ->
+    <a class="FlattrButton" style="display:none;" href="http://domination.sourceforge.net/"></a>
+    <noscript><a href="http://flattr.com/thing/844816/Domination-Game" target="_blank">
+    <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+    <g:plusone size="tall" href="http://domination.sf.net/donate.shtml#android-3D-globe"></g:plusone>
+    <fb:like href="http://domination.sf.net/donate.shtml?android-3D-globe" send="false" layout="box_count" width="50" show_faces="true"></fb:like>
+</div>
+-->
+
+<br clear="both"/>
+
+<g:comments
+    href="http://domination.sourceforge.net/donate.shtml"
+    first_party_property="BLOGGER"
+    view_type="FILTERED_POSTMOD">
+</g:comments>
+
+<!--#include file="nav.txt" -->

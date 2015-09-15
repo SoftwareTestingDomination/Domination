@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>yura.net Domination (Risk Board Game) - FlashGUI</title>
+
+
+
+<!--#include file="top.txt" -->
+
+
+<h1>yura.net Domination - FLASH GUI APPLET</h1>
+
+<center>
+
+	<table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td><img src="images/1.gif" width="33" height="33"></td>
+                <td background="images/bottom.jpg">&nbsp;</td>
+                <td><img src="images/2.gif" width="33" height="33"></td>
+            </tr>
+            <tr>
+                <td background="images/right.jpg">&nbsp;</td>
+                <td background="images/back.jpg">
+
+
+<applet code="net.yura.domination.ui.flashgui.FlashGUIApplet" codebase="applet" ARCHIVE="Domination.jar" width=400 height=550>
+
+<PARAM NAME="lang" VALUE="<!--#echo var="QUERY_STRING" -->">
+
+<PARAM NAME="map" VALUE="ameroki.map,eurasien.map,geoscape.map,lotr.map,luca.map,risk.map,RiskEurope.map,roman_empire.map,sersom.map,teg.map,tube.map,uk.map,world.map">
+
+<PARAM NAME="cards" VALUE="ameroki.cards,eurasien.cards,lotr.cards,nomission.cards,risk.cards,RiskEurope.cards,roman_empire.cards">
+
+</applet></td>
+
+                <td background="images/left.jpg">&nbsp;</td>
+            </tr>
+            <tr>
+                <td><img src="images/3.gif" width="33" height="33"></td>
+                <td background="images/top.jpg">&nbsp;</td>
+                <td><img src="images/4.gif" width="33" height="33"></td>
+            </tr>
+        </table>
+
+</center>
+
+<p>This is just a demo and does not include all the features of the game, and as its loading from the net, its a lot slower then the full game.</p>
+
+<p>Save game and load game will not work in the applet as they require access to the hard disk, network play will not work too.</p>
+
+<!--#include file="lang.txt" -->
+
+<a href="applet/src.zip">Download Source Code</a>
+
+<br clear="both"/>
+
+<g:comments
+    href="http://domination.sourceforge.net/flashgui.shtml"
+    first_party_property="BLOGGER"
+    view_type="FILTERED_POSTMOD">
+</g:comments>
+
+<!--#include file="nav.txt" -->
+

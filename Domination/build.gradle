@@ -1,0 +1,60 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile project(":AndroidME")
+    compile project(":BaseGameUtils")
+    compile fileTree(dir: 'libs', include: '*.jar')
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.1.0'
+
+    // this to to avoid error from httpcore-4.1.2.jar and httpcore-4.1.2.jar having the same file
+    packagingOptions {
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE.txt'
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src', 'src_android', 'src_mapstore']
+            resources.srcDirs = ['src', 'res_android']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+    }
+
+    // this is to avoid the @TargetApi missing on methods giving errors.
+    lintOptions {
+        abortOnError false
+    }
+
+}
+
+// same as ant tasks "setup.android"
+task copyAssets(type: Copy) {
+    from('game/Domination') {
+        include 'maps/**'
+        include 'help/**'
+    }
+    from('src/META-INF') {
+        include 'services/**'
+    }
+    from 'gpl.txt'
+    from 'ChangeLog.txt'
+    into 'assets'
+}
+assembleDebug.dependsOn(copyAssets)
+assembleRelease.dependsOn(copyAssets)

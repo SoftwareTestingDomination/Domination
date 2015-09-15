@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.3
+Created-By: Yura Mamyrin (yura@yura.net)
+Main-Class: net.yura.domination.ui.swinggui.SwingGUIFrame
+Class-Path: Domination.jar

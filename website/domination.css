@@ -1,0 +1,24 @@
+
+.thumbnail2 {
+width:250px;
+height:230px;
+float:right;
+text-align:center;
+
+}
+.thumbnail {
+width:200px;
+height:170px;
+float:left;
+text-align:center;
+
+}
+
+.t {background: url(images/top.jpg) 0 0 repeat-x; width: 20em}
+.b {background: url(images/bottom.jpg) 0 100% repeat-x}
+.l {background: url(images/left.jpg) 0 0 repeat-y}
+.r {background: url(images/right.jpg) 100% 0 repeat-y}
+.bl {background: url(images/bottom-left.gif) 0 100% no-repeat}
+.br {background: url(images/bottom-right.gif) 100% 100% no-repeat}
+.tl {background: url(images/top-left.gif) 0 0 no-repeat}
+.tr {background: url(images/top-right.gif) 100% 0 no-repeat; padding:10px}

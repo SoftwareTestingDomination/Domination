@@ -1,0 +1,195 @@
+
+        </td>
+        <td background="images/right.jpg">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td background="images/left.jpg">&nbsp;</td>
+        <td valign="top" width="150" background="images/back2.jpg">
+
+
+
+
+<!-- NAV START -->
+
+
+
+
+	<p>
+	<a href="applet/ChangeLog.txt">Change Log</a> <a href="http://sf.net/p/domination/code/HEAD/tree/Domination/ChangeLog.txt">svn</a><br>
+	<br>
+	<a href="donate.shtml">VOTE/DONATE FOR NEXT FEATURE</a><br>
+	<br>
+	<a href="index.shtml">News</a><br>
+	<a href="ss.shtml">Screen Shots</a><br>
+	<a href="download.shtml">Download</a><br>
+
+</p>
+
+
+<p>
+<a href="https://play.google.com/store/apps/details?id=net.yura.domination"><img src="images/android_app_on_play_logo_small.png" alt="Android App on Google Play" width="129" height="45"></a>
+</p>
+
+
+
+<p>
+<a href="http://www.amazon.com/gp/product/B008HQRC6O/ref=domination_sf_net"><img src="images/Amazon_APP_Store_Badge.png" alt="Android App on Amazon AppStore" width="143" height="48"></a>
+</p>
+
+<!--
+<p>
+<a href="http://appworld.blackberry.com/webstore/content/20485828/"><img src="images/BBWorld_Get It_small.png" alt="Get it at BlackBerry World" width="136" height="48"></a>
+</p>
+-->
+
+
+<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://domination.sourceforge.net/"></a>
+<noscript><a href="http://flattr.com/thing/844816/Domination-Game" target="_blank">
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+
+
+
+<p><g:plusone href="http://domination.sourceforge.net/"></g:plusone></p>
+
+
+
+<p><div class="fb-like" data-href="http://www.facebook.com/BubbleandSpice" data-send="false" data-layout="button_count" data-width="150" data-show-faces="true"></div></p>
+
+
+
+<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+
+<p>
+
+<a href="applet/flashDomination.jnlp">FlashGUI Web Start<br>
+<img src="images/webstart.png" alt="Launches Flash GUI Domination" height="23" width="88"></a><br>
+
+<a href="applet/swingDomination.jnlp">SwingGUI Web Start<br>
+<img src="images/webstart.png" alt="Launches Swing GUI Domination" height="23" width="88"></a><br>
+
+	<br>
+	<a href="flashgui.shtml">Flash Applet</a><br>
+	<a href="swinggui.shtml">Swing Applet</a><br>
+	<br>
+
+	<a href="faq.shtml">FAQ</a><br>
+	<a href="makemaps.shtml">Make Maps</a><br>
+	<a href="getmaps.shtml">Extra Maps</a><br>
+	<a href="makelan.shtml">Make Translation</a><br>
+	<a href="makeai.shtml">Make AI</a>
+</p>
+
+<p>
+	<a href="http://sf.net/p/domination/_list/tickets">Bug Tracker</a> <a href="https://sourceforge.net/p/domination/code/HEAD/tree/Domination/todo.txt">todo</a><br>
+	<a href="http://sf.net/p/jrisk/mailman/">Mailinglist</a><br>
+	<a href="http://sf.net/p/domination/discussion/271205/">Discussion</a> <a href="http://yura.net/projects/domination#comments">Comments</a>
+</p>
+
+        <p><a href="http://sf.net/projects/domination/">Domination Project Page on SourceForge</a></p>
+        <p><a href="http://freshmeat.net/projects/domination">Domination Project Page on Freshmeat</a> <a href="http://freshmeat.net/projects/risk">R</a></p>
+
+        <p><a href="http://lobby.sf.net/">Lobby Web Site on SourceForge</a></p>
+        <p><a href="http://sf.net/projects/lobby/">Lobby Project Page on SourceForge</a></p>
+
+
+
+
+
+<!--
+	<a href="http://sourceforge.net/donate/index.php?group_id=79448"><img src="http://images.sourceforge.net/images/project-support.jpg" alt="Support This Project" border="0" width="88" height="32" /></a><br>
+        If you like this game and would want me to spend more time on it, please donate, anything would be appreciated!
+-->
+
+<center>
+
+        <p><a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=79448&amp;type=2" alt="SourceForge.net Logo" border="0" /></a> </p>
+
+
+
+
+<!--
+<p>Search Source Code:</p>
+-->
+
+
+
+
+
+
+        <p>copyright 2003-2014 <a href="http://yura.net/">yura.net</a></p>
+
+<!--
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-75194-2'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+-->
+
+
+<script src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/translatemypage.xml&up_source_language=en&w=160&h=60&title=&border=&output=js"></script>
+
+
+<script language="JavaScript1.2" src="http://www.altavista.com/static/scripts/translate_engl.js"></script>
+
+
+</center>
+
+
+
+
+
+
+<!-- NAV END -->
+
+
+        </td>
+        <td background="images/right.jpg">&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><img src="images/bottom-left.gif" width="33"
+        height="33"></td>
+        <td background="images/bottom.jpg">&nbsp;</td>
+        <td><img src="images/bottom-right.gif" width="33"
+        height="33"></td>
+        <td>&nbsp;</td>
+        <td><img src="images/bottom-left.gif" width="33"
+        height="33"></td>
+        <td background="images/bottom.jpg">&nbsp;</td>
+        <td><img src="images/bottom-right.gif" width="33"
+        height="33"></td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="33">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+
+
+<!--
+<div class="t"><div class="b"><div class="l"><div class="r"><div class="bl"><div class="br"><div class="tl"><div class="tr">
+Lorem ipsum dolor sit amet consectetur adipisicing elit
+Lorem ipsum dolor sit amet consectetur adipisicing elit
+Lorem ipsum dolor sit amet consectetur adipisicing elit
+Lorem ipsum dolor sit amet consectetur adipisicing elit
+Lorem ipsum dolor sit amet consectetur adipisicing elit
+Lorem ipsum dolor sit amet consectetur adipisicing elit
+Lorem ipsum dolor sit amet consectetur adipisicing elit
+Lorem ipsum dolor sit amet consectetur adipisicing elit
+</div></div></div></div></div></div></div></div>
+-->
+
+</body>
+</html>

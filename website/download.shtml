@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>yura.net Domination (Risk Board Game) - Download</title>
+
+<!--#include file="top.txt" -->
+
+
+	<h1>Free Downloads</h1>
+
+
+        <p><b><u>yura.net Domination 1.1.1.5:</u></b></p>
+
+<p>Available in the following languages:
+<img src="images/flags/eng.gif" width="24" height="19" alt="English">
+<img src="images/flags/deu.gif" width="24" height="19" alt="German">
+<img src="images/flags/fra.gif" width="24" height="19" alt="French">
+<img src="images/flags/spa.gif" width="24" height="19" alt="Spanish">
+<img src="images/flags/rus.gif" width="24" height="19" alt="Russian">
+<img src="images/flags/ned.gif" width="24" height="19" alt="Dutch">
+<img src="images/flags/ita.gif" width="24" height="19" alt="Italian">
+<img src="images/flags/chn.gif" width="24" height="19" alt="Chinese">
+<img src="images/flags/cat.gif" width="24" height="19" alt="Catalan">
+<img src="images/flags/fin.gif" width="24" height="19" alt="Finnish">
+<img src="images/flags/tur.gif" width="24" height="19" alt="Turkish">
+<img src="images/flags/scg.gif" width="24" height="19" alt="Serbian">
+<img src="images/flags/por.gif" width="24" height="19" alt="Portuguese">
+<img src="images/flags/swe.gif" width="24" height="19" alt="Swedish">
+<img src="images/flags/glg.gif" width="24" height="19" alt="Galician">
+<img src="images/flags/pol.gif" width="24" height="19" alt="Polish">
+<img src="images/flags/cze.gif" width="24" height="19" alt="Czech">
+<img src="images/flags/ukr.gif" width="24" height="19" alt="Ukrainian">
+<img src="images/flags/ell.gif" width="24" height="19" alt="Greek">
+<img src="images/flags/dan.gif" width="24" height="19" alt="Danish">
+<img src="images/flags/lva.gif" width="24" height="19" alt="Latvian">
+<img src="images/flags/svk.gif" width="24" height="19" alt="Slovak">
+</p>
+
+        <p><a href="http://prdownloads.sourceforge.net/domination/Domination_install_1.1.1.5.jar?download">Domination Installer</a> 6.5MB
+<img src="images/platforms/mac.png" width="24" height="24" alt="Mac">
+<img src="images/platforms/linux.png" width="24" height="24" alt="Linux">
+<img src="images/platforms/bsd.png" width="24" height="24" alt="BSD">
+<img src="images/platforms/solaris.png" width="24" height="24" alt="Solaris">
+
+ (Mac OS X 10.5 Leopard+, Linux, Unix or any other OS that runs Java 1.5+)<br>
+
+        <a href="http://prdownloads.sourceforge.net/domination/Domination_install_1.1.1.5.exe?download">Domination exe Installer for Windows</a> 6.9MB
+<img src="images/platforms/windows.png" width="24" height="24" alt="Windows">
+ (Java 1.5+, <b>windows VISTA or 7 users MUST get this</b>, or get a better OS)<br>
+
+        <a href="http://prdownloads.sourceforge.net/domination/Domination_1.1.1.5.zip?download">Domination game zip file</a> 5.7MB
+	(pre 10.5 Mac OS and any other OS that runs Java 1.4+)<br>
+<!-- TODO
+        <a href="http://prdownloads.sourceforge.net/domination/backup_of_Domination_1.0.9.8.zip?download">Domination
+        source package </a>10.6 MB (<b>To BUILD Risk users MUST get this</b>, includes risk source and ant script for compiling)</p>
+-->
+        <p>ALL downloads of Domination include the game, manual and source!</p>
+
+<a href="http://sourceforge.net/project/showfiles.php?group_id=79448">Older Domination versions</a>
+<a href="http://sourceforge.net/project/stats/detail.php?group_id=79448&ugn=domination&type=prdownload&mode=60day&file_id=0">stats</a>
+
+
+        <p><b><u>Download Notes:</u></b><br>
+        This game requires java 1.4 or higher, please download it
+        from <a href="http://www.java.com/en/download/manual.jsp">Here</a>.<br>
+        If anyone has any other problems with downloading can
+        they please e-mail me as soon as possible (<a href="&#0109;&#97;&#105;&#108;&#116;&#111;&#58;&#121;u&#114;&#097;&#064;&#121;&#117;&#0114;&#097;&#046;&#0110;&#101;&#0116;">&#121;u&#114;&#097;&#064;&#0121;&#0117;&#0114;&#97;&#046;&#0110;&#101;&#0116;</a>).<br>
+        If someone does not know how to play the game and cant
+        understand the manual included with the game then have a
+        look at <a href="applet/help/rules.htm">this</a>.</p>
+
+
+        <p><b><u>Bugs:</u></b><br>
+        If you find any bugs that are not in the <a href="https://sourceforge.net/p/domination/code/HEAD/tree/Domination/todo.txt">todo.txt</a>
+        please put them on the sf.net bug track thing <a
+        href="https://sourceforge.net/p/domination/bugs/">here</a>
+        (don't forget to leave some contact details!!), or e-mail
+        me. Please quote what version of the game you found the
+        bug in!</p>
+
+
+        <p><b><u><a id="code">Anonymous Subversion</a></u></b></p>
+        <p>Run the following commands in a directory that you
+        have write access to (such as your home directory): </p>
+
+<h3>Desktop (J2SE) Domination</h3>
+
+	<code>
+	svn co https://svn.code.sf.net/p/domination/code/Domination<br>
+	</code>
+	<p>please use <a href="https://netbeans.org/downloads/">Netbeans</a>/<a href="http://ant.apache.org/">Ant</a> to build the project</p>
+
+<!--
+        <p>run compile.cmd to compile Risk and the other cmd
+        files to run the GUIs</p>
+-->
+	<a href="http://sf.net/p/domination/code/">Browse Subversion Repository</a><br>
+
+<h3><a id="android">Android Domination</a></h3>
+
+	<code>
+	svn co https://svn.code.sf.net/p/domination/code/Domination<br>
+	svn co https://svn.code.sf.net/p/domination/code/BaseGameUtils<br>
+	svn co https://svn.code.sf.net/p/swingme/code/UtilME<br>
+	svn co https://svn.code.sf.net/p/swingme/code/SwingME<br>
+	svn co https://svn.code.sf.net/p/swingme/code/AndroidME<br>
+	</code>
+
+	<p>please use <a href="http://developer.android.com/sdk/index.html">Android Studio</a>/<a href="http://developer.android.com/sdk/installing/studio-build.html">Gradle</a> to build the project</p>
+
+<h3>Other projects used by Domination</h3>
+
+	<h4><a id="lobby">The Lobby Project</a></h4>
+	<code>
+	svn co http://svn.code.sf.net/p/lobby/code/trunk Lobby
+	</code>
+	<br><br>
+	<a href="http://sf.net/p/lobby/code/">Browse Subversion Repository</a><br>
+	<br>
+
+	<h4>Translation Tool</h4>
+	<code>
+	svn co http://svn.code.sf.net/p/cunninglinguist/code/TranslationTool
+	</code>
+	<br><br>
+	<a href="http://sf.net/p/cunninglinguist/code/">Browse Subversion Repository</a><br>
+	<br>
+
+	<h4>Grasshopper</h4>
+	<code>
+	svn co http://svn.code.sf.net/p/jrisk/code/Grasshopper/
+	</code>
+	<br><br>
+	<a href="http://sf.net/p/jrisk/code/">Browse Subversion Repository</a><br>
+	<br><br>
+
+<!--
+        <p><b><u>Anonymous CVS</u></b></p>
+        <p>Run the following commands in a directory that you
+        have write access to (such as your home directory): <br>
+        <br>
+        <code>cvs -d
+        ':pserver:anonymous@cvs.sourceforge.net:/cvsroot/jrisk'
+        login<br>
+        </code><br>
+        (Just hit enter for the password)<br>
+        <br>
+        <code>cvs -z3 -d
+        ':pserver:anonymous@cvs.sourceforge.net:/cvsroot/jrisk'
+        checkout Risk</code> </p>
+        <p>run compile.cmd to compile Risk and the other cmd
+        files to run the GUIs</p>
+
+
+	<a href="http://cvs.sourceforge.net/viewcvs.py/jrisk">Browse CVS Repository</a>
+-->
+
+<g:comments
+    href="http://domination.sourceforge.net/download.shtml"
+    first_party_property="BLOGGER"
+    view_type="FILTERED_POSTMOD">
+</g:comments>
+
+<!--#include file="nav.txt" -->
+
+
+

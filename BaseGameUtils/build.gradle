@@ -1,0 +1,20 @@
+
+apply plugin: 'android-library'
+
+dependencies {
+    compile 'com.google.android.gms:play-services:3+'
+}
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "19.1.0"
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+        }
+    }
+
+}

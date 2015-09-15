@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>yura.net Domination (Risk Board Game) - Screen Shots</title>
+
+
+<!--#include file="top.txt" -->
+
+	<h1>yura.net Domination - Screen Shots</h1>
+
+<h2>Domination Game</h2>
+
+<a href="screenshots/menu.jpg"><img src="screenshots/small/menu.jpg" border="0" ></a>
+<a href="screenshots/setup.jpg"><img src="screenshots/small/setup.jpg" border="0" ></a>
+<a href="screenshots/dom_game.jpg"><img src="screenshots/small/dom_game.jpg" border="0" ></a>
+<a href="screenshots/attack.jpg"><img src="screenshots/small/attack.jpg" border="0" ></a>
+<a href="screenshots/stats.jpg"><img src="screenshots/small/stats.jpg" border="0" ></a>
+<a href="screenshots/retina_lobby.jpg"><img src="screenshots/small/retina_lobby.jpg" border="0" ></a>
+<!--<a href="screenshots/play.jpg"><img src="screenshots/small/play.jpg" border="0" ></a>-->
+
+<h2>Domination IDE and Map Editor</h2>
+
+<a href="screenshots/ide_1.png"><img src="screenshots/small/ide_1.jpg" border="0" ></a>
+<a href="screenshots/3d.jpg"><img src="screenshots/small/3d.jpg" border="0" ></a>
+<a href="screenshots/map_editor.jpg"><img src="screenshots/small/map_editor.jpg" border="0" ></a>
+<a href="screenshots/test.png"><img src="screenshots/small/test.jpg" border="0" ></a>
+
+<h2>Domination On Android</h2>
+
+<a href="screenshots/ss_mainmenu.png"><img src="screenshots/small/ss_mainmenu.jpg" border="0" ></a>
+<a href="screenshots/ss_gamesetup.png"><img src="screenshots/small/ss_gamesetup.jpg" border="0" ></a>
+<a href="screenshots/android.jpg"><img src="screenshots/small/android.jpg" border="0" ></a>
+<a href="screenshots/ss_tegmap.png"><img src="screenshots/small/ss_tegmap.jpg" border="0" ></a>
+<a href="screenshots/ss_graph.png"><img src="screenshots/small/ss_graph.jpg" border="0" ></a>
+
+<br clear="both"/>
+
+<g:comments
+    href="http://domination.sourceforge.net/ss.shtml"
+    first_party_property="BLOGGER"
+    view_type="FILTERED_POSTMOD">
+</g:comments>
+
+<!--#include file="nav.txt" -->

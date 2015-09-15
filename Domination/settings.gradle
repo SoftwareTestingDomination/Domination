@@ -1,0 +1,9 @@
+//include ':..:BaseGameUtils'
+//include ':..:AndroidME'
+// can not do as above as does not build on Windows http://b.android.com/79505
+// example: https://android.googlesource.com/platform/tools/buildSrc/+/master/base/settings.gradle
+include ':BaseGameUtils'
+project(':BaseGameUtils').projectDir = new File(rootDir.getParentFile(), 'BaseGameUtils')
+include ':AndroidME'
+project(':AndroidME').projectDir = new File(rootDir.getParentFile(), 'AndroidME')
+

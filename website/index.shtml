@@ -1,0 +1,228 @@
+<html>
+<head>
+<title>yura.net Domination (Risk Board Game)</title>
+
+
+<!--#include file="top.txt" -->
+
+
+	<h1>yura.net Domination</h1>
+
+
+<div class='thumbnail2'>
+
+<h2>New Map:</h2>
+
+<a href="maps/bigeurope.zip">	<img src="images/maps/bigeurope.jpg" border="1" width="150" height="94"><br>	21. Big Europe Map</a>
+
+<br><a href="getmaps.shtml">more</a>
+
+</div>
+
+
+        <h2>News:</h2>
+
+<!--
+see the ChangeLog for more info.
+See the updated ChangeLog for details.
+Check the ChangeLog for more information.
+To find out the rest of the changes please check out the ChangeLog.
+Now, go check it out! The ChangeLog is lonely. Go visit it, too. 
+-->
+
+    <p>02.03.2015 - Blackberry AppWorld version of Domination has been taken down as Blackberry can't maintain there build tools, but <a href="http://us.blackberry.com/apps/amazon-appstore.html">Amazon AppStore is now available for Blackberry</a>, so you can <a href="http://www.amazon.com/gp/product/B008HQRC6O/ref=domination_sf_net">download Domination from there</a> for your Blackberry.</p>
+
+    <p>02.03.2015 - I have had to remove donation options from the site as Google has shut down <a href="https://support.google.com/wallet/business/answer/6107573">Google Wallet for digital goods</a>.</p>
+
+    <p>17.01.2014 - Domination for Android v54 is out, Now you can create private games with the friends you have in your Google+ circles. This feature was implemented using <a href="https://developers.google.com/games/services/android/multiplayer">Google Play Game Services Real-time Multiplayer</a> for starting the game, and the games run on <a href="http://lobby.sf.net/">Lobby</a>. Thanks to Jerome Abela for helping make this happen!</p>
+
+    <p>31.10.2013 - New version (51) of <a href="https://play.google.com/store/apps/details?id=net.yura.domination">Domination for Android</a> comes with <a href="https://developers.google.com/games/services/">Google Play Game Services</a>. In this first version only <a href="https://developers.google.com/games/services/common/concepts/achievements">achievements</a> are supported, but more features will follow. This feature was done at the London <a href="http://uk.droidcon.com/">Droidcon</a> 2013 <a href="http://uk.droidcon.com/2013/hackathon/">hackathon</a>.</p>
+
+    <p>21.09.2013 - I've been told about a strange Italian man who has made a copy of the Domination game and pretended that it is his game by removing all the credits and replacing them with his own name. The game has been modified and may contain malware so please do not download, his site is: <a href="http://translate.google.com/translate?u=http%3A%2F%2Fun0rtica.altervista.org">http://un0rtica.altervista.org</a> email is: <a href="mailto:0rtica@libero.it">0rtica@libero.it</a> Looks familiar:<br>
+    <a href="screenshots/bad_game1.jpg"><img src="screenshots/small/bad_game1.jpg" border="0" ></a>
+    <a href="screenshots/bad_game2.jpg"><img src="screenshots/small/bad_game2.jpg" border="0" ></a>
+    <a href="screenshots/bad_game3.jpg"><img src="screenshots/small/bad_game3.jpg" border="0" ></a>
+    </p>
+
+    <p>22.08.2013 - New versions of Domination are out, <a href="https://play.google.com/store/apps/details?id=net.yura.domination">48 for Android</a> and <a href="http://sourceforge.net/projects/domination/files/latest/download">1.1.1.5 for Desktop</a>. See the updated <a href="applet/ChangeLog.txt">ChangeLog</a> for details.</p>
+
+    <p>23.04.2013 - I registered "Android Player Customization" in the "proposing" section on FreedomSponsors. This means that if you need this issue that bad, you can go to <a href="http://www.freedomsponsors.org/core/issue/249/android-player-customization">here</a> and offer a few bucks for it.</p>
+
+    <p>22.04.2013 - New versions of Domination are out, <a href="https://play.google.com/store/apps/details?id=net.yura.domination">37 for Android</a> and <a href="http://sourceforge.net/projects/domination/files/latest/download">1.1.1.4 for Desktop</a>. see the <a href="applet/ChangeLog.txt">ChangeLog</a> for changes.</p>
+
+    <p>19.04.2013 - All <a href="http://web.archive.org/web/20070623193823/http://teg.sourceforge.net/index.php?page=themes">maps</a> from the game <a href="http://sf.net/projects/teg/">Tenes Empanadas Graciela (TEG)</a> are now available from the MapStore in Domination! just search for "teg".</p>
+
+    <p>11.04.2013 - Jibran Khan has created a fork of Domination to focus on Plan Recognition, code is on 
+<a href="https://github.com/jibrankhan/Domination">github</a>.
+ 	</p>
+
+    <p>31.03.2013 -
+    Many people have been saying the dice are not fair in the game, well they are!
+    When the dice are rolled the game has no idea who it is rolling the dice for,
+    (in situations where both get the same value, the defender wins)
+    the code that generates the dice numbers is <a href="https://sourceforge.net/p/domination/code/HEAD/tree/Domination/src/net/yura/domination/engine/core/RiskGame.java#l2451">here</a>
+    as you can see it does no check to see whos turn it is, or if it is the attacking
+    dice or defending dice, it simply generates the numbers from the java <a href="http://docs.oracle.com/javase/7/docs/api/java/util/Random.html">Random</a> object.</p>
+
+    <p>18.03.2013 - The main maps in Domination do not have movement route between the territories of East Africa and Middle East
+    (luca.map, geoscape.map, sersom.map, world.map) but if you want to play with the link there are also many map available that
+    do feature that link such as (risk.map, Risiko_Klassisch.map, OriginalRisk1975.map, fran_risk.map, Nafta-Risk-V2.map)
+    so search for these map in the MapStore if you like to play with the link present.</p>
+
+    <p>09.03.2013 - New version with online play is out, Domination 1.1.1.3. download it <a href="http://sourceforge.net/projects/domination/files/latest/download">here</a>.</p>
+
+    <p>20.02.2013 - A new pluggable AI has been added to the codebase and will be released in the next version. the docs have also been updated and can be found <a href="makeai.shtml">here</a>.</p>
+
+    <p>16.12.2012 - <a href="http://talk.maemo.org/showthread.php?t=88271">Domination running on a Maemo N900 phone.</a> with screenshots and a download link.</p>
+
+    <p>03.12.2012 - The latest version of Domination for Android (v24) includes a Beta of the online lobby for multiplayer play, now with nofifications on your turn, to try out this Beta you need to have a Android phone with the locale set to en_GB.</p>  
+
+    <p>18.11.2012 - New version of Domination is out! 1.1.1.2, fixes to the map editor and FlashGUI and Ukrainian language added!</p>
+
+    <p>11.09.2012 - New version of Domination is out! 1.1.1.1, better network play and better italian mode play</p>
+
+    <p>29.08.2012 - New version of Domination for Android v16 is out, fixes to italian play, desktop version will follow soon.</p>
+
+    <p>16.07.2012 - New version of Domination is out! 1.1.1.0, lots of improvements to the map editor!</p>
+
+    <p>08.07.2012 - <a href="https://play.google.com/store/apps/details?id=net.yura.domination">Stable version of Domination for Android (ver 9) now available from Google Play!</a></p>
+
+    <p>30.06.2012 - <a href="https://play.google.com/store/apps/details?id=net.yura.domination">First beta version of Domination for Android now available from the google play store!!</a></p>
+
+    <p>26.06.2012 - New version of Domination is out! 1.1.0.9, small bug fixes! also the Android version coming very soon!!</p>
+
+    <p>02.04.2012 - New version of Domination is out! 1.1.0.8, Much better Mac OS X support!</p>
+
+    <p>11.03.2012 - New version of Domination is out! 1.1.0.7, map versions supported and lots of bugs fixed!</p>
+
+    <p>08.01.2012 - New version of Domination is out! 1.1.0.6, even more bugs fixed</p>
+
+    <p>04.01.2012 - New version of Domination is out! 1.1.0.5, more bugs fixed</p>
+
+    <p>30.12.2011 - New version of Domination is out! 1.1.0.4, lots of bugs fixed</p>
+
+    <p>21.12.2011 - New version of Domination is out! 1.1.0.3, something fun for the end of the game ;-)</p>
+
+    <p>12.12.2011 - New version of Domination is out! 1.1.0.2, new and simple way of choosing maps has been added, as well as many windows 7 bugs fixed.</p>
+
+    <p>18.06.2010 - New version of Domination is out! 1.1.0.1, fixes big card problems that were created in 1.1.0.0</p>
+
+    <p>02.06.2010 - New version of Domination is out! 1.1.0.0, lots of bug fixes and updates, i have received lots of maps, and will soon be uploading them to the new map system</p>
+
+	<p>04.09.2009 - world wind java multi touch version of Domination: <a href="http://www.youtube.com/watch?v=3gxVjzmTnS4">video</a></p>
+
+	<p>07.10.2008 - New verion of Domination is out! 1.0.9.8, lots of bug fixes and updates</p>
+
+	<p>02.06.2008 - yura.net Domination home page is now fully working, and u can even play on the site!</p>
+
+	<p>06.05.2008 - New version of Domination 1.0.9.7, now comes with an installer for windows vista!</p>
+
+<!--
+	<p>21.04.2008 - Hello Hasbro, nice you noticed my Domination game, but how about we work together to bring fun to people,
+	and both benefit, all i want is for Domination to stay a open source project. There is a lot you could use it for,
+	and profit from it, while keeping it an open source project!</p>
+-->
+	<p>16.04.2008 - Domination 1.0.9.6 is out. check changelog for changes.</p>
+
+	<p>05.03.2008 - NEW Domination! 1.0.9.5!, can now go fullscreen and supports bigger maps!</p>
+<!--
+<p><b>
+27.02.2008 - i am looking for developers and investors interested in the <a href="http://sourceforge.net/projects/lobby/">Lobby</a>(/Domination) Project!
+The lobby project has commercial value as when it is launched adverts can be placed on the site
+thats runs it, and it will get a lot of hits. If anyone
+is interested in working on the Lobby Project, or in writing new games for it, or on adapting
+<a href="http://sourceforge.net/projects/jogre/">existing open source games</a> for Lobby,
+Or investing some money to pay expenses for developers
+and for the servers that will be needed to run it, please get in touch
+(<a href="&#0109;&#97;&#105;&#108;&#116;&#111;&#58;&#121;u&#114;&#097;&#064;&#121;&#117;&#0114;&#097;&#046;&#0110;&#101;&#0116;">&#121;u&#114;&#097;&#064;&#0121;&#0117;&#0114;&#97;&#046;&#0110;&#101;&#0116;</a>)
+</b></p>
+-->
+	<p>26.02.2008 - 5 new maps!!! dont have too much fun!</p>
+
+	<p>02.02.2008 - NEW Domination! 1.0.9.4!</p>
+
+	<p>22.12.2007 - Will Grapperhaus wrote: Why does the human player get raped every single time????</p>
+
+	<p>03.10.2007 - New Domination 1.0.9.3, fixed Map Editor bugs and better AI!<BR>
+if u downloaded it in the first day then please redownload, sorry
+
+	</p>
+
+	<p>29.09.2007 - The Lobby/Domination (lobby is a online games lobby where u can go and meet new people to play Domination and later other games against) code is almost done, i am looking for a dedicated server to host it on,
+	if u know of anyone who can get me a server in exchange for advertising on the site then please tell me.
+	(<a href="&#0109;&#97;&#105;&#108;&#116;&#111;&#58;&#121;u&#114;&#097;&#064;&#121;&#117;&#0114;&#097;&#046;&#0110;&#101;&#0116;">&#121;u&#114;&#097;&#064;&#0121;&#0117;&#0114;&#97;&#046;&#0110;&#101;&#0116;</a>)
+	</p>
+
+	<p>23.08.2007 - New version of Domination 1.0.9.2 with a new map and a full map editor!</p>
+
+	<p>07.07.2007 - a lucky day for Domination, a new version to patch all the bugs of 1.0.9.0</p>
+
+	<p>15.03.2007 - slac has been renamed to LOBBY!!!! yay, and this will be the project for the online games lobby to run Domination and other games.</p>
+
+	<p>27.02.2007 - Added 3 new maps, also a new project called <a href="http://sourceforge.net/projects/lobby/">slac</a> (for now) has been started to make Domination and other games playable from a lobby.</p>
+
+	<p>23.01.2007 - OOPS! if u got it on the first 2 days it was out there was a typo in 1 method, so can you please redownload it. it will say "(Game Save) 5" at the top of the ChangeLog.txt if you have the correct version.</p>
+
+	<p>
+	17.01.2007 - New version of Domination 1.0.8.9.
+	Catalan and Finnish translations were added. The game does not crash if it can't find the map directory. The word "test" can be added to the top of a map file to run the map's test. A bug where the saved games would not load unless the map directory was exactly in the same location was fixed. More flexible missions now work, like a missions whose goal is to get 3 of any continent. Other small bugs were fixed.
+	</p>
+
+	<p>28.11.2006 - 2 new maps in the maps section!</p>
+
+	<p>25.09.2006 - NEW version of Domination 1.0.8.8!!! what more can i say?</p>
+
+	<p>09.09.2006 - LOTS OF NEW MAPS!!! and there will be a new version of Domination as soon as sf gets subversion working again!!</p>
+
+	<p>02.09.2006 - added new tool that makes translating Domination really easy. go to <b>Make Translation</b> page to get it</p>
+
+	<p>29.04.2006 - New Maps of Noth Europe, also WOW APPLET Domination!!!!! YAY APPLET Domination!!!!1 click on "Swing Applet" on the right hand manu to have a look. This also means that a new version of Domination is out, with all that applet goodness.</p>
+
+	<p>21.04.2006 - New Maps of Germany on the extra maps page, and also a new Solar Map!</p>
+
+	<p>29.01.2006 - New Version of Domination 1.0.8.6!!</p>
+
+	<p>31.12.2005 - New bizarre map called Conquest by Chris Thomas added to the extra maps section</p>
+
+	<p>23.12.2005 - New Domination, 1.0.8.5, lots of new things, like better networking and italian. have not had time to test it, if it crashes then use the older version. lol</p>
+
+	<p>01.12.2005 - New Domination, 1.0.8.4, lots of new things, look in the change log</p>
+
+	<p>13.11.2005 - Map of spain added to extra maps sections, made by Jose-Philippe Culubret</p>
+
+	<p>28.10.2005 - New Domination 1.0.8.3 with lots of cool stuff, spanish, russian, error catching and network play setup in SwingGUI!</p>
+
+	<p>21.10.2005 - ive had a spanish translation sent to me already and it will be included in Domination 1.0.8.3 which should be out next week. so no need to make spanish translations any more!</p>
+
+	<p>10.10.2005 - new Domination 1.0.8.2 has french support! (CVS still not working)</p>
+
+	<p>27.09.2005 - Domination 1.0.8.1 is OUT WOW, with stats and many more cool things!!</p>
+
+	<p>23.09.2005 - lots of new sections added to the site</p>
+
+        <p>18.09.2005 - New version of Domination is out!!!! 1.0.8.0. fixed a few bugs to do with the new german language, and some other things work better now </p>
+
+        <p>22.05.2005 - New version of Domination is out!!!! 1.0.7.6. German Language added and other fixes and features! Look in changelog for more info about what's new. </p>
+
+        <p>15.05.2005 - MY GAME RESCUE! MAX IS OUT IN BETA, DOWNLOAD IT AND TELL ME WHAT YOU THINK: <a href="http://rescue.sf.net/">http://rescue.sf.net/</a>. </p>
+
+        <p>15.02.2005 - Lots of new things been happening with Domination recently, check out the CVS Domination for the newest version, German language now added and much more!!! may have a new version in a few weeks even. Thank you to everyone who sent maps in.</p>
+ 
+
+        <p><b><u>Help Needed:</u></b><br>
+        If anyone would like to help with this project please e-mail me (<a href="&#0109;&#97;&#105;&#108;&#116;&#111;&#58;&#121;u&#114;&#097;&#064;&#121;&#117;&#0114;&#097;&#046;&#0110;&#101;&#0116;">&#121;u&#114;&#097;&#064;&#0121;&#0117;&#0114;&#97;&#046;&#0110;&#101;&#0116;</a>)
+        </p>
+
+        <p>Made by <a href="https://plus.google.com/104393657899926875405?rel=author">Yura Mamyrin</a>.</p>
+
+        <p>Thanks you: Mike Chaten, Christian, Naeem, Mubarak, Adrian for your help with this project.</p>
+
+<g:comments
+    href="http://domination.sourceforge.net"
+    first_party_property="BLOGGER"
+    view_type="FILTERED_POSTMOD">
+</g:comments>
+
+<!--#include file="nav.txt" -->
+
+
