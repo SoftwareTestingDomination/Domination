@@ -306,7 +306,7 @@ public class RiskUIUtil {
 
 			if (checkForNoSandbox()) {
 
-				final AtomicReference<File> mapsdir1 = new AtomicReference(new File("maps"));
+				final AtomicReference<File> mapsdir1 = new AtomicReference(new File("build/game/maps"));
 
 				// riskconfig.getProperty("default.map")
 
@@ -316,7 +316,7 @@ public class RiskUIUtil {
 
                                     // on Apple OS X java 1.7 this deadlocks if not on the UI Thread
                                     SwingUtilities.invokeAndWait(new Runnable() { public void run() {
-
+                                            
 					JOptionPane.showMessageDialog(null,"Can not find map: "+dmname );
 
 					JFileChooser fc = new JFileChooser( new File(".") );
