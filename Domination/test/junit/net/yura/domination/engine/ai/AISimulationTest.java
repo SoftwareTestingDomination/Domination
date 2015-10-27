@@ -94,4 +94,45 @@ public class AISimulationTest extends TestCase{
 		}
 	}
 
+        private void playMaxCPUGame(Risk risk) throws InterruptedException {
+		risk.parser("closegame");
+		synchronized (risk) {
+			while (risk.getGame() != null) {
+				risk.wait();
+			}
+		}
+		risk.parser("newgame");
+		
+		risk.parser("newplayer ai easy 6 6");
+		risk.parser("newplayer ai average 2 2");
+		risk.parser("newplayer ai hard 1 1");
+		risk.parser("newplayer ai easy 3 3");
+		risk.parser("newplayer ai average 4 4");
+		risk.parser("newplayer ai hard 5 5");
+                
+                for (int i = 7; i < 500; i++) {
+                    risk.parser(String.format("newplayer ai hard %d %d", i, i));
+                }
+                
+		risk.parser("startgame domination fixed recycle");
+		
+		synchronized (risk) {
+			while (risk.getGame() == null || risk.getGame().getState() != RiskGame.STATE_GAME_OVER) {
+				risk.wait();
+			}
+			Player p = risk.getGame().getCurrentPlayer();
+			if (p.getType() == AIDomination.PLAYER_AI_AVERAGE) {
+				avg++;
+			} else if (p.getType() == AIDomination.PLAYER_AI_EASY) {
+				easy++;
+			} else if (p.getType() == AIDomination.PLAYER_AI_HARD) {
+				hard++;
+			} else {
+				other++;
+			}
+			if (debug) {
+				System.out.println(p);
+			}
+		}
+	}
 }
