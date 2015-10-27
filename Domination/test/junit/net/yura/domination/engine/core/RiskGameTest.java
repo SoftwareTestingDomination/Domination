@@ -21,6 +21,100 @@ public class RiskGameTest extends TestCase {
         super.tearDown();
     }
 
+    
+    public void testAddPlayer() {
+        RiskGame instance;
+        try {
+            RiskUIUtil.mapsdir = new File("./game/Domination/maps").toURI().toURL();
+            instance = new RiskGame();
+        }
+        catch(Exception ex) {
+            throw new RuntimeException(ex);
+        }
+        assertTrue(instance.addPlayer(0, "test1", 0, "ADDR"));
+        assertFalse(instance.addPlayer(0, "test1", 1, "ADDR"));
+        assertFalse(instance.addPlayer(0, "test2", 0, "ADDR"));
+        assertTrue(instance.addPlayer(0, "test2", 1, "ADDR"));
+        
+    }
+    
+    public void testDelPlayer() {
+        RiskGame instance;
+        try {
+            RiskUIUtil.mapsdir = new File("./game/Domination/maps").toURI().toURL();
+            instance = new RiskGame();
+        }
+        catch(Exception ex) {
+            throw new RuntimeException(ex);
+        }
+        assertTrue(instance.addPlayer(0, "test1", 0, "ADDR"));
+        assertTrue(instance.addPlayer(0, "test2", 1, "ADDR"));
+        assertTrue(instance.delPlayer("test1"));
+        assertFalse(instance.delPlayer("test1"));
+        assertFalse(instance.delPlayer("dne"));
+    }
+    
+    public void testPlaceArmy() {
+        RiskGame instance;
+        try {
+            RiskUIUtil.mapsdir = new File("./game/Domination/maps").toURI().toURL();
+            instance = new RiskGame();
+            instance.startGame(0, 0, true, false);
+        }
+        catch(Exception ex) {
+            throw new RuntimeException(ex);
+        }
+        instance.placeArmy(null, 1);
+    }
+    
+    public void testStartGame() {
+        RiskGame instance;
+        try {
+            RiskUIUtil.mapsdir = new File("./game/Domination/maps").toURI().toURL();
+            instance = new RiskGame();
+            instance.startGame(0, 0, true, true);
+        }
+        catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+    
+    public void testGetRandomCountry() {
+        RiskGame instance;
+        try {
+            RiskUIUtil.mapsdir = new File("./game/Domination/maps").toURI().toURL();
+            instance = new RiskGame();
+        }
+        catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            instance.getRandomCountry();
+            fail("Game state should NOT have been STATE_PLACE_ARMIES");
+        } catch (IllegalStateException e) {}
+        try {
+            instance.startGame(0, 0, true, false);
+            int countryId = instance.getRandomCountry();
+            //TODO below line fails
+            assertTrue(instance.getCountries()[countryId].getArmies() > 0);
+        } catch (Exception e) {
+            e.printStackTrace();
+            fail(e.toString());
+        }
+    }
+    
+    public void testMap() {
+        RiskGame instance;
+        try {
+            RiskUIUtil.mapsdir = new File("./game/Domination/maps").toURI().toURL();
+            instance = new RiskGame();
+            instance.testMap();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+            fail(e.toString());
+        }
+    }
     /**
      * Test of trade method, of class RiskGame.
      */
