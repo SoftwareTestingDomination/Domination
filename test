@@ -1,0 +1,1 @@
+ant -f /home/mike/Domination/Domination -Djavac.includes=net/yura/domination/engine/ai/AISimulationTest.java -Dnb.internal.action.name=test.single -Dtest.includes=net/yura/domination/engine/ai/AISimulationTest.java -Dignore.failing.tests=true test-single
