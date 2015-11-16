@@ -108,11 +108,13 @@ public class RiskTest extends TestCase {
 	risk.join();
     }
     
-    //loadgame, join, startserver, killserver
+    //TODO: test delplayer <- Mike
     
-    //inGameParser
-    // choosemap, choosecards, delplayer, info, autosetup, startgame mission/capital
+    //TODO: test getCurrentMission <- Corb.co
     
-    // canAttack, getCurrentMission, getPlayerColors, canTrade
+    //TODO: test info, startgame mission/capital, choosemap, choosecards, GetPlayerColors
+    
+    //Don't test join, startserver, killserver
+    //Don't test: autosetup, canAttack, canTrade
     
 }
