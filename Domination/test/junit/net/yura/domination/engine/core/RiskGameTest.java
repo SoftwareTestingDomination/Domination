@@ -64,6 +64,7 @@ public class RiskGameTest extends TestCase {
         catch(Exception ex) {
             throw new RuntimeException(ex);
         }
+        // Jake will fix
         instance.placeArmy(null, 1);
     }
     
@@ -95,7 +96,7 @@ public class RiskGameTest extends TestCase {
         try {
             instance.startGame(0, 0, true, false);
             int countryId = instance.getRandomCountry();
-            //TODO below line fails
+            //TODO Jake will fix
             assertTrue(instance.getCountries()[countryId].getArmies() > 0);
         } catch (Exception e) {
             e.printStackTrace();
