@@ -143,6 +143,68 @@ public class RiskTest extends TestCase {
     
     
     //TODO: test getCurrentMission <- Corb.co
+    public void testGetCurrentMission()throws InterruptedException{
+        //ResourceBundle resb = TranslationBundle.getBundle();
+        String[] gameModes = {
+            "domination", 
+            "capital"
+        };
+        String[] gameDescs = {
+            "Conquer the world by occupying every territory on the board, thus eliminating all your opponents.", 
+            "Capture all opposing Headquarters-while still controlling your own territory."
+        };
+        for (int i = 0; i < gameModes.length; i++) {
+            String mode = gameModes[i];
+            String desc = gameDescs[i];
+            
+            //set up
+            final Risk risk = NewRisk();
+
+            risk.parser("newgame");
+            
+            //risk.parser("newplayer ai easy 0 0");
+            //risk.parser("newplayer ai easy 1 1");
+            risk.parser("newplayer human blue player1");
+            risk.parser("newplayer human green player2");
+
+            risk.parser("startgame " + mode + " fixed recycle");
+            
+            syncGame(risk);
+            assertEquals(desc, risk.getCurrentMission());
+            
+            //tear down
+            risk.kill();
+            risk.join();
+        }
+        
+        // Mission mode is different
+        //set up
+        final Risk risk = NewRisk();
+
+        risk.parser("newgame");
+
+        //risk.parser("newplayer ai easy 0 0");
+        //risk.parser("newplayer ai easy 1 1");
+        risk.parser("newplayer human blue player1");
+        risk.parser("newplayer human green player2");
+
+        risk.parser("startgame mission fixed recycle");
+
+        syncGame(risk);
+        try {
+            RiskGame game = risk.getGame();
+            net.yura.domination.engine.core.Player player = game.getCurrentPlayer();
+            net.yura.domination.engine.core.Mission mission = player.getMission();
+
+            assertEquals(mission.getDiscription(), risk.getCurrentMission());
+        } catch (NullPointerException e) {
+            fail("Mission mode exception:\n" + e.toString());
+        }
+        
+        //tear down
+        risk.kill();
+        risk.join();
+    }
     
     //TODO: test info, startgame mission/capital, choosemap, choosecards, GetPlayerColors
     
