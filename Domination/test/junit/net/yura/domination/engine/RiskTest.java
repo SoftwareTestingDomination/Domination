@@ -120,7 +120,7 @@ public class RiskTest extends TestCase {
         risk.parser("newgame");
         
         //add the player
-        risk.parser("newplayer ai easy player1");
+        risk.parser("newplayer ai easy yellow player1");
         
         //delete the player
         risk.parser("delplayer player1");
