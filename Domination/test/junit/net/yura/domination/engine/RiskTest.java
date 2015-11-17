@@ -130,6 +130,7 @@ public class RiskTest extends TestCase {
             //wait for the risk game to finish processing your actions
             while (risk.getGame() == null) {
                 risk.wait();
+                
             }
             //do your checks here
             RiskGame game = risk.getGame();
@@ -140,6 +141,38 @@ public class RiskTest extends TestCase {
         risk.kill();
 	risk.join();
     }
+    
+        public void testStartMission() throws InterruptedException {
+            Risk risk = NewRisk();
+            risk.parser("newgame");
+            risk.parser("newplayer human blue player1");
+            risk.parser("newplayer human green player2");
+            risk.parser("startgame mission fixed recycle");
+            
+            System.out.println("TimeBeforeSync: "+System.currentTimeMillis());
+            syncGame(risk);
+            RiskGame game = risk.getGame();
+            System.out.println("TimeAfterSync: "+System.currentTimeMillis());
+                
+            assertEquals(RiskGame.MODE_SECRET_MISSION, game.getGameMode());
+            risk.kill();
+            risk.join();
+        }
+        
+        public void testStartCapital() throws InterruptedException {
+            Risk risk = NewRisk();
+            risk.parser("newgame");
+            risk.parser("newplayer human blue player1");
+            risk.parser("newplayer human green player2");
+            risk.parser("startgame capital fixed recycle");
+            
+            syncGame(risk);
+            RiskGame game = risk.getGame();
+                
+            assertEquals(RiskGame.MODE_CAPITAL, game.getGameMode());
+            risk.kill();
+            risk.join();
+        }
     
     
     //TODO: test getCurrentMission <- Corb.co
