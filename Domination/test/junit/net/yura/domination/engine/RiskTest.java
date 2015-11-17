@@ -117,14 +117,11 @@ public class RiskTest extends TestCase {
         //set up
         final Risk risk = NewRisk();
         
-        //do stuff in the parser outside of the syncronized block
-        risk.parser("loadgame test/junit/res/game1.save");
-        syncGame(risk);
-        //Check that there is a player "player1"
-        synchronized(risk){
-           RiskGame game = risk.getGame();
-           assertEquals(true, game.getPlayer("player1") != null);
-        }
+        risk.parser("newgame");
+        
+        //add the player
+        risk.parser("newplayer ai easy player1");
+        
         //delete the player
         risk.parser("delplayer player1");
         
