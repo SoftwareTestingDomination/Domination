@@ -78,8 +78,6 @@ public class RiskTest extends TestCase {
             //wait for the risk game to finish processing your actions
             while (risk.getGame() == null) {
                 risk.wait();
-                Thread.sleep(500);
-                System.out.println("tick");
             }
         }
     }
