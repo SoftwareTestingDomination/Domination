@@ -48,7 +48,11 @@ public class RiskTest extends TestCase {
             }
         } );
         risk.parser("closegame");
-        syncGame(risk);
+        synchronized (risk) {
+            while (risk.getGame() != null) {
+                risk.wait();
+            }
+	}
         return risk;
     }
     
@@ -71,10 +75,11 @@ public class RiskTest extends TestCase {
      */
     private void syncGame(Risk risk)throws InterruptedException{
         synchronized (risk) {
-            while (risk.getGame() != null) {
+            //wait for the risk game to finish processing your actions
+            while (risk.getGame() == null) {
                 risk.wait();
             }
-	}
+        }
     }
     
     /* Tests ******************************************************************/
@@ -108,7 +113,37 @@ public class RiskTest extends TestCase {
 	risk.join();
     }
     
-    //TODO: test delplayer <- Mike
+        public void testDeletePlayer()throws InterruptedException{
+        //set up
+        final Risk risk = NewRisk();
+        
+        //do stuff in the parser outside of the syncronized block
+        risk.parser("loadgame test/junit/res/game1.save");
+        syncGame(risk);
+        //Check that there is a player "player1"
+        synchronized(risk){
+           RiskGame game = risk.getGame();
+           assertEquals(true, game.getPlayer("player1") != null);
+        }
+        //delete the player
+        risk.parser("delplayer player1");
+        
+        //Access Risk variables inside a syncronized block
+        synchronized (risk) {
+            //wait for the risk game to finish processing your actions
+            while (risk.getGame() == null) {
+                risk.wait();
+            }
+            //do your checks here
+            RiskGame game = risk.getGame();
+            //check that player1 is not in the game
+            assertEquals(null,game.getPlayer("player1"));
+        }
+        //tear down
+        risk.kill();
+	risk.join();
+    }
+    
     
     //TODO: test getCurrentMission <- Corb.co
     
