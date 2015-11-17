@@ -78,6 +78,8 @@ public class RiskTest extends TestCase {
             //wait for the risk game to finish processing your actions
             while (risk.getGame() == null) {
                 risk.wait();
+                Thread.sleep(500);
+                System.out.println("tick");
             }
         }
     }
@@ -130,6 +132,7 @@ public class RiskTest extends TestCase {
             //wait for the risk game to finish processing your actions
             while (risk.getGame() == null) {
                 risk.wait();
+                
             }
             //do your checks here
             RiskGame game = risk.getGame();
@@ -140,6 +143,42 @@ public class RiskTest extends TestCase {
         risk.kill();
 	risk.join();
     }
+    
+        public void testStartMission() throws InterruptedException {
+            System.out.println("TimeBegin: "+System.currentTimeMillis());
+            Risk risk = NewRisk();
+            System.out.println("TimeInitRisk: "+System.currentTimeMillis());
+            risk.parser("newgame");
+            risk.parser("newplayer ai easy 0 0");
+            System.out.println("TimeAddPlayer1: "+System.currentTimeMillis());
+            risk.parser("newplayer ai easy 1 1");
+            System.out.println("TimeAddPlayer2: "+System.currentTimeMillis());
+            risk.parser("startgame mission fixed recycle");
+            
+            System.out.println("TimeBeforeSync: "+System.currentTimeMillis());
+            syncGame(risk);
+            RiskGame game = risk.getGame();
+            System.out.println("TimeAfterSync: "+System.currentTimeMillis());
+                
+            assertEquals(RiskGame.MODE_SECRET_MISSION, game.getGameMode());
+            risk.kill();
+            risk.join();
+        }
+        
+        public void testStartCapital() throws InterruptedException {
+            Risk risk = NewRisk();
+            risk.parser("newgame");
+            risk.parser("newplayer ai easy 0 0");
+            risk.parser("newplayer ai easy 1 1");
+            risk.parser("startgame capital fixed recycle");
+            
+            syncGame(risk);
+            RiskGame game = risk.getGame();
+                
+            assertEquals(RiskGame.MODE_CAPITAL, game.getGameMode());
+            risk.kill();
+            risk.join();
+        }
     
     
     //TODO: test getCurrentMission <- Corb.co
