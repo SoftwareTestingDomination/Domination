@@ -48,7 +48,11 @@ public class RiskTest extends TestCase {
             }
         } );
         risk.parser("closegame");
-        syncGame(risk);
+        synchronized (risk) {
+            while (risk.getGame() != null) {
+                risk.wait();
+            }
+	}
         return risk;
     }
     
@@ -71,10 +75,11 @@ public class RiskTest extends TestCase {
      */
     private void syncGame(Risk risk)throws InterruptedException{
         synchronized (risk) {
-            while (risk.getGame() != null) {
+            //wait for the risk game to finish processing your actions
+            while (risk.getGame() == null) {
                 risk.wait();
             }
-	}
+        }
     }
     
     /* Tests ******************************************************************/
@@ -108,11 +113,40 @@ public class RiskTest extends TestCase {
 	risk.join();
     }
     
-    //loadgame, join, startserver, killserver
+        public void testDeletePlayer()throws InterruptedException{
+        //set up
+        final Risk risk = NewRisk();
+        
+        risk.parser("newgame");
+        
+        //add the player
+        risk.parser("newplayer ai easy player1");
+        
+        //delete the player
+        risk.parser("delplayer player1");
+        
+        //Access Risk variables inside a syncronized block
+        synchronized (risk) {
+            //wait for the risk game to finish processing your actions
+            while (risk.getGame() == null) {
+                risk.wait();
+            }
+            //do your checks here
+            RiskGame game = risk.getGame();
+            //check that player1 is not in the game
+            assertEquals(null,game.getPlayer("player1"));
+        }
+        //tear down
+        risk.kill();
+	risk.join();
+    }
     
-    //inGameParser
-    // choosemap, choosecards, delplayer, info, autosetup, startgame mission/capital
     
-    // canAttack, getCurrentMission, getPlayerColors, canTrade
+    //TODO: test getCurrentMission <- Corb.co
+    
+    //TODO: test info, startgame mission/capital, choosemap, choosecards, GetPlayerColors
+    
+    //Don't test join, startserver, killserver
+    //Don't test: autosetup, canAttack, canTrade
     
 }
