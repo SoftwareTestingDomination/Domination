@@ -239,6 +239,33 @@ public class RiskTest extends TestCase {
         risk.join();
     }
     
+    public void testNetworkPlayerLeave()throws InterruptedException{
+        //set up
+        final Risk risk = NewRisk();
+
+        risk.parser("newgame");
+
+        //risk.parser("newplayer ai easy 0 0");
+        //risk.parser("newplayer ai easy 1 1");
+        risk.parser("newplayer human blue player1");
+        risk.parser("newplayer human green player2");
+       
+        syncGame(risk);
+        
+        net.yura.domination.engine.core.RiskGame game = risk.getGame();
+        net.yura.domination.engine.core.Player player = game.getPlayer("player1");
+        String address = player.getAddress();
+        
+        risk.parserFromNetwork("LEAVE " + address);
+        
+        // Check
+        assertEquals(0, game.getPlayers().size());
+        
+        //tear down
+        risk.kill();
+        risk.join();
+    }
+    
     //TODO: test info, startgame mission/capital, choosemap, choosecards, GetPlayerColors
     
     //Don't test join, startserver, killserver
